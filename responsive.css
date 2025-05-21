@@ -72,4 +72,27 @@
         display: none !important;
     }
 
+    .card_list_product {
+        display: grid;
+        grid-template-columns: 1fr !important;
+
+    }
+
+    .product_details {
+        display: block !important;
+    }
+
+    .product_img img {
+        width: 100% !important;
+        height: 100% !important;
+
+    }
+
+    .wrapper {
+        padding: 16px;
+    }
+
+    .card {
+        display: block !important;
+    }
 }
