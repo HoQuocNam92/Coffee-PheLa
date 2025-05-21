@@ -1,171 +1,82 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
+ .footer {
+     background-color: black;
+     width: 100%;
+     padding: 20px 0;
+     color: white;
+ }
 
-body {
-    font-family: 'K2D', sans-serif;
-    font-weight: 600;
-    --black: #000;
-    --white: #fff;
+ .logo {
+     margin-top: 20px;
+     width: 25%;
+     float: left;
+     text-align: center;
+ }
 
-}
+ .logo img {
+     margin-top: 20px;
+     width: 200px;
+     height: 100px;
+ }
 
+ .thongtin {
+     width: 15%;
+     float: left;
+     margin-top: 20px;
 
-.header {
-    background-color: var(--black);
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-}
+ }
 
-.container {
-    max-width: 1170px;
-    margin: 0 auto;
-}
+ .thongtin li {
 
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+     list-style: none;
+     padding: 5px;
+ }
 
-.navbar .logo img {
-    width: 40px;
-    height: 40px;
-}
+ .thongtin a {
+     text-decoration: none;
+     color: white;
+ }
 
-.navbar .menu {
-    display: flex;
-    list-style: none;
+ .clear {
+     clear: both;
+ }
 
-}
+ .diachi {
+     width: 25%;
+     float: left;
+     margin-top: 20px;
+ }
 
+ .diachi li {
+     list-style: none;
+     padding: 5px;
+     color: white;
+ }
 
+ .diachi a {
+     text-decoration: none;
+     color: white;
+ }
 
-.menu .menu-link {
-    display: block;
-    text-decoration: none;
-    padding: 22px 15px;
-    color: var(--white);
-    font-size: 14px;
+ .lienhe {
+     width: 25%;
+     float: left;
+     margin-left: 50px;
+     margin-top: 20px;
+ }
 
-}
+ .lienhe img {
+     width: 30px;
+     height: 30px;
+ }
 
+ .lienhe li {
+     list-style: none;
+     padding: 5px;
+     margin: 5px;
+     display: inline-block;
+ }
 
-
-
-
-
-
-
-
-
-
-
-
-.hero {
-    margin-top: 60px;
-    height: 850px;
-    max-width: 100vw;
-    overflow: hidden;
-}
-
-.hero .hero-section {
-    display: flex;
-    height: 100%;
-    transition: all 0.5s ease-in-out;
-}
-
-.hero .hero-image {
-    width: 100%;
-    height: 100%;
-}
-
-
-
-
-.footer {
-    background-color: black;
-    width: 100%;
-    padding: 20px 0;
-    color: white;
-}
-
-.logo {
-    margin-top: 20px;
-    width: 25%;
-    float: left;
-    text-align: center;
-}
-
-.logo img {
-    margin-top: 20px;
-    width: 200px;
-    height: 100px;
-}
-
-.thongtin {
-    width: 15%;
-    float: left;
-    margin-top: 20px;
-
-}
-
-.thongtin li {
-
-    list-style: none;
-    padding: 5px;
-}
-
-.thongtin a {
-    text-decoration: none;
-    color: white;
-}
-
-.clear {
-    clear: both;
-}
-
-.diachi {
-    width: 25%;
-    float: left;
-    margin-top: 20px;
-}
-
-.diachi li {
-    list-style: none;
-    padding: 5px;
-    color: white;
-}
-
-.diachi a {
-    text-decoration: none;
-    color: white;
-}
-
-.lienhe {
-    width: 25%;
-    float: left;
-    margin-left: 50px;
-    margin-top: 20px;
-}
-
-.lienhe img {
-    width: 30px;
-    height: 30px;
-}
-
-.lienhe li {
-    list-style: none;
-    padding: 5px;
-    margin: 5px;
-    display: inline-block;
-}
-
-.end {
-    text-align: center;
-    margin-top: 15px;
-}
+ .end {
+     text-align: center;
+     margin-top: 15px;
+ }
