@@ -5,14 +5,14 @@
      color: white;
  }
 
- .logo {
+ .footer .logo {
      margin-top: 20px;
      width: 25%;
      float: left;
      text-align: center;
  }
 
- .logo img {
+ .footer .logo img {
      margin-top: 20px;
      width: 200px;
      height: 100px;
