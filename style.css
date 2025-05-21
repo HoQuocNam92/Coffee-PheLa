@@ -448,3 +448,105 @@ body {
     filter: brightness(70%);
     height: 250px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+
+.footer {
+    background-color: var(--black);
+    width: 100%;
+    padding: 20px 0;
+    color: var(--white);
+}
+
+.footer .logo {
+    margin-top: 20px;
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+
+.footer .logo img {
+    margin-top: 20px;
+    width: 40px;
+    height: 40px;
+}
+
+.thongtin {
+    width: 15%;
+    float: left;
+    margin-top: 20px;
+
+}
+
+.thongtin li {
+
+    list-style: none;
+    padding: 5px;
+}
+
+.thongtin a {
+    text-decoration: none;
+    color: var(--white);
+
+}
+
+.clear {
+    clear: both;
+}
+
+.diachi {
+    width: 25%;
+    float: left;
+    margin-top: 20px;
+}
+
+.diachi li {
+    list-style: none;
+    padding: 5px;
+    color: var(--white);
+
+}
+
+.diachi a {
+    text-decoration: none;
+    color: var(--white);
+
+}
+
+.lienhe {
+    width: 25%;
+    float: left;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.lienhe img {
+    width: 30px;
+    height: 30px;
+}
+
+.lienhe li {
+    list-style: none;
+    padding: 5px;
+    margin: 5px;
+    display: inline-block;
+}
+
+.end {
+    text-align: center;
+    margin-top: 15px;
+}
