@@ -88,85 +88,84 @@ body {
 
 
 .footer {
-    background-color:black;
-    width:100%;
+    background-color: black;
+    width: 100%;
     padding: 20px 0;
     color: white;
 }
 
-.logo
-{
-    margin-top:20px;
-    width:25%;
-    float:left;
+.logo {
+    margin-top: 20px;
+    width: 25%;
+    float: left;
     text-align: center;
 }
-.logo img
-{
- margin-top: 20px; 
+
+.logo img {
+    margin-top: 20px;
     width: 200px;
     height: 100px;
 }
-.thongtin
-{
-  width:15%;
-    float:left;
+
+.thongtin {
+    width: 15%;
+    float: left;
     margin-top: 20px;
 
 }
-.thongtin li
-{
+
+.thongtin li {
 
     list-style: none;
-    padding:5px;
+    padding: 5px;
 }
-.thongtin a
-{
+
+.thongtin a {
     text-decoration: none;
     color: white;
 }
-.clear
-{
+
+.clear {
     clear: both;
 }
-.diachi
-{
-    width:25%;
-     float:left;
-     margin-top:20px;
+
+.diachi {
+    width: 25%;
+    float: left;
+    margin-top: 20px;
 }
-.diachi li
-{
+
+.diachi li {
     list-style: none;
-    padding:5px;
-  color: white;
+    padding: 5px;
+    color: white;
 }
-.diachi a
-{
+
+.diachi a {
     text-decoration: none;
-    color:white;
+    color: white;
 }
-.lienhe
-{
-    width:25%;
-     float:left;
-     margin-left:50px;
-     margin-top: 20px;
+
+.lienhe {
+    width: 25%;
+    float: left;
+    margin-left: 50px;
+    margin-top: 20px;
 }
-.lienhe img
-{
+
+.lienhe img {
     width: 30px;
-    height:30px;
+    height: 30px;
 }
-.lienhe li
-{
+
+.lienhe li {
     list-style: none;
-    padding:5px;
-    margin:5px;
+    padding: 5px;
+    margin: 5px;
     display: inline-block;
 }
-.end
-{
+
+.end {
     text-align: center;
-    margin-top:15px;
+    margin-top: 15px;
 }
