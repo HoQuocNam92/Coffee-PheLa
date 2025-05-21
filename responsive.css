@@ -63,4 +63,9 @@
     .thongtin {
         width: 100% !important;
     }
+
+    .card-image {
+        height: 370px !important;
+    }
+
 }
