@@ -1,0 +1,48 @@
+@media (max-width : 768px) {
+    .wrapper {
+        padding: 16px;
+    }
+
+    .menu {
+        display: none !important;
+    }
+
+    .hero {
+        height: 100% !important;
+    }
+
+    .address-main {
+        padding: 16px !important;
+        gap: 0 !important;
+    }
+
+    .address-main img {
+        height: 100% !important;
+    }
+
+    .address-main h3 {
+        font-size: 20px !important;
+    }
+
+    .product-layout,
+    .card-list,
+    .address-main,
+    .list-address,
+    .story-section {
+        grid-template-columns: 1fr !important;
+    }
+
+    .story-image {
+        order: 1;
+    }
+
+    .text-left {
+        order: 2;
+
+    }
+
+    .text-right {
+        order: 3;
+
+    }
+}
