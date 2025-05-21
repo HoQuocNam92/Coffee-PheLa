@@ -466,10 +466,10 @@ body {
 /* Footer */
 
 .footer {
-    background-color: black;
+    background-color: var(--black);
     width: 100%;
     padding: 20px 0;
-    color: white;
+    color: var(--white);
 }
 
 .footer .logo {
@@ -481,8 +481,8 @@ body {
 
 .footer .logo img {
     margin-top: 20px;
-    width: 200px;
-    height: 100px;
+    width: 40px;
+    height: 40px;
 }
 
 .thongtin {
@@ -500,7 +500,8 @@ body {
 
 .thongtin a {
     text-decoration: none;
-    color: white;
+    color: var(--white);
+
 }
 
 .clear {
@@ -516,12 +517,14 @@ body {
 .diachi li {
     list-style: none;
     padding: 5px;
-    color: white;
+    color: var(--white);
+
 }
 
 .diachi a {
     text-decoration: none;
-    color: white;
+    color: var(--white);
+
 }
 
 .lienhe {

@@ -45,4 +45,22 @@
         order: 3;
 
     }
+
+    .footer {
+        padding: 16px !important;
+    }
+
+    .diachi li {
+        padding: 0 !important;
+    }
+
+    .lienhe {
+        margin-left: 0 !important
+    }
+
+    .lienhe,
+    .diachi,
+    .thongtin {
+        width: 100% !important;
+    }
 }
