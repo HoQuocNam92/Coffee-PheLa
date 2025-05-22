@@ -1,8 +1,25 @@
 const slides = document.querySelector('.hero-section');
 const prev = document.querySelector('.prev');
-console.log(prev)
 const next = document.querySelector('.next');
 const list = document.querySelectorAll('.address');
+const bars = document.querySelector('.bars');
+const close = document.querySelector('.close');
+const menu = document.querySelector('.menu');
+
+bars.addEventListener("click",()=>{
+   close.classList.toggle("active");
+   menu.classList.toggle('active');
+   bars.style.display = 'none'
+})
+close.addEventListener("click",()=>{
+   menu.classList.toggle('active');
+   bars.style.display = 'block'
+   close.classList.toggle("active");
+
+   
+})
+
+
 let index = 0;
 let current = 0;
  setInterval(() => {
@@ -30,3 +47,9 @@ prev.addEventListener("click",()=>{
      if (current > 0) current--;
   showSlider();
 })
+
+
+
+
+
+
