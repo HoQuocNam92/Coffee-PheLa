@@ -1,23 +1,16 @@
-<<<<<<< HEAD
-.base
-{
-   width: 1170px;
-   justify-content: center;
-   align-items: center;
-
-=======
-.base {
-    width: 1170px;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
->>>>>>> 6b6c7e61f40cc67a23e9d5a4f470dd68d44fd715
+.main {
+    display: flex;
+    flex-direction: column;
 }
 
-.base2 {
-    margin: 0;
-    padding: 0;
-    width: 80%;
+
+
+
+
+.info-section h3 {
+    font-size: 28px;
+    margin-bottom: 45px;
+    margin-top: 20px;
 }
 
 .lienhe {
@@ -41,15 +34,114 @@
 }
 
 .contact {
-    border: 1px solid white;
-    width: 60%;
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(94, 93, 93, 0.5);
-    margin-top: 20px;
-
+    border-radius: 5px;
+    box-shadow: 0 5px 20px rgb(0 0 0 / 10%)
 }
 
 .form {
+    padding: 60px;
+}
+
+.form h4 {
+    font-family: 'K2D-SemiBold' sans-serif;
+    font-size: 30px;
+    line-height: 60px;
+    font-weight: 500;
+    margin: 20px 0;
+}
+
+.form p {
+    color: #8c8c8c;
+    font-weight: 400;
+}
+
+.form button {
     width: 100%;
-    margin-left: 30px;
+    background: linear-gradient(90deg, #be7352 -33.67%, #ddc3af 100%);
+    border-radius: 38px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding: 10px 0;
+    border: none;
+    margin: 24px 0;
+    cursor: pointer;
+}
+
+.form button:hover {
+    background: #be7352;
+    transition: 0.3s;
+}
+
+.form-info input {
+    width: 100%;
+    padding: 25px 0;
+    border: none;
+    border-bottom: 1px solid #E2E2E2;
+    outline: none;
+}
+
+
+.form-info textarea::placeholder,
+.form-info input::placeholder {
+    font-size: 16px;
+}
+
+.form-info textarea {
+    height: 170px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #E2E2E2;
+    padding-top: 24px;
+
+}
+
+
+
+.info-section {
+    padding: 60px 0;
+
+}
+
+.info-section .info {
+    display: flex;
+    padding: 8px 0;
+}
+
+.info-section .info-icon {
+    margin-right: 8px;
+}
+
+
+.info-text p {
+    font-weight: 300;
+}
+
+
+
+@media (max-width:768px) {
+    .base {
+        order: 1;
+
+    }
+
+    .wrapper {
+        padding: 0 28px !important;
+    }
+
+    .form {
+        padding: 15px !important;
+    }
+
+    .contact {
+        margin-top: 60px;
+    }
+
+    .info-section {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
 }

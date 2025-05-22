@@ -1,91 +1,110 @@
-.aaa {
-  width:100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;     
-  padding: 0;
-  margin: 0;
+.banner {
+  width: 100%;
+  height: 300px;
+}
+
+.banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .base {
-  width: 55%;
+
   padding: 20px;
 }
+
 .base p {
   font-size: 20px;
 
 }
-.doan
-{
+
+.doan {
   margin-top: 20px;
   width: 100%;
 }
-.baivietlq
-{
-  width: 100%;
-}
-.card
-{
-  width: 30%;
-  margin:10px;
-  float:left;
 
-  height: auto;
+.doan a {
+  display: inline-block;
+  word-break: break-all;
 }
-.card img
-{
+
+.baivietlq {
   width: 100%;
-  height: 160px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
 }
-.card img:hover
-{
+
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card img:hover {
   opacity: 0.5;
 }
-.clear
-{
+
+.clear {
   clear: both;
 }
-.tieude 
-{
+
+.tieude {
   height: 20px;
   margin-bottom: 30px;
   margin-right: 6px;
 }
 
-.tieude  a
-{
+.tieude a {
   text-decoration: none;
   color: black;
   font-size: 18px;
   font-weight: bold;
   height: 10px;
-  background-color:white;
+  background-color: white;
 }
-.tieude a:hover
-{
+
+.tieude a:hover {
   color: rgb(231, 188, 143);
 }
-.noidung{
+
+.noidung {
   width: 100%;
 }
-.noidung p
-{
-  font-size:normal;
+
+.noidung p {
+  font-size: normal;
   text-align: left;
   margin-right: 10px;
 }
-.chitiet
-{
-  text-align: center;
-  width: 60%;
-  margin: 30px -8px;
-}
-.chitiet a
-{
+
+
+
+.chitiet a {
+  margin-top: 28px;
+  display: inline-block;
   text-decoration: none;
   color: white;
   padding: 15px 25px;
   background-color: rgb(230, 208, 166);
   font-size: 17px;
 
+}
+
+
+
+@media (max-width:768px) {
+  .baivietlq {
+    grid-template-columns: 1fr !important;
+  }
+
+  .banner {
+    height: 200px !important;
+  }
+
+  .aaa {
+    margin-top: 40px !important;
+  }
 }
