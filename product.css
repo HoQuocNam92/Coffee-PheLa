@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "K2D-Regular";
+    font-weight: 600;
+    --black: #000;
+    --white: #fff;
+
+}
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    padding-left: 120px;
+}
+
+.product_sidebar{
+    position: fixed;
+    top: 0;
+    left: 240px;
+    width: 220px;
+    height: 100vh;
+    overflow-y: auto;
+    background-color: #fff;
+    border-right: 1px #be7352 solid;
+    z-index: 999;
+    padding: 40px 20px 0 20px;
+}
+
+.sidebar_list{
+    list-style: none;
+}
+
+.sidebar_item{
+    padding: 10px 20px 10px 0;
+}
+
+.item_name{
+    text-decoration: none;
+    font-size: 14px;
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+
+/* menu */
+.product_menu{
+    flex: 1;
+}
+
+.product{
+    padding: 40px 0;
+}
+
+.product_item{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    column-gap: 20px;
+}
+
+
+.product_title{
+    margin-bottom: 30px;
+}
+
+.title_product{
+    text-transform: uppercase;
+    color: #222222;
+    font-size: 30px;
+    height: 60px;
+    line-height: 60px;
+}
+
+/* card */
+.product_card{
+
+}
+
+.product_card img{
+    width: 100%;
+}
+
+.card_content{
+    font-family: "K2D-Semibold";
+    padding: 25px 0;
+}
+
+.card_name{
+    text-transform: uppercase;
+    color: #000000;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 550;
+}
+
+.card_box{
+    margin-top: 20px;
+}
+
+.card_cost{
+    font-size: 16px;
+    color: #be7352;
+    margin-bottom: 10px;
+}
+
+.btn_card{
+    background-color: #ddc3af;
+    padding: 11px 34px;
+    border: none;
+}
+
+.btn_card a{
+    color: #ffff;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+/* responsive Ipad*/
+@media (min-width: 740px) and (max-width: 1023px)
+{
+}
+/* responsive mobile */
+@media (max-width: 739px)
+{
+    .product_sidebar {
+        position: fixed;
+        left: 0;                /* Dịch sát trái màn hình */
+        width: 180px;           /* Sidebar nhỏ hơn */
+        padding: 20px;
+        z-index: 999;
+      }
+    
+      .container {
+        padding-left: 200px;    /* Cập nhật theo chiều rộng mới */
+      }
+}
