@@ -12,6 +12,19 @@ body {
 
 }
 
+
+
+.header-pc,
+.header-mobile {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+}
+
+
+
 .header {
     background-color: var(--black);
     position: fixed;
@@ -106,6 +119,7 @@ body {
     color: var(--white);
     cursor: pointer;
     transition: all 0.2s ease-in-out;
+    cursor: pointer;
 }
 
 
@@ -170,10 +184,6 @@ body {
 .story-section .story-image img {
     width: 100%;
 }
-
-
-
-
 
 
 

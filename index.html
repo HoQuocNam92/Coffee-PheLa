@@ -17,22 +17,22 @@
 
 <body>
     <div class="main">
-        <div class="header-mobile">
-            <iframe src="header-mobile.html"
-                style="width: 100%; height: 100%; border: none;position: fixed; top:0; left: 0; z-index: 999;"></iframe>
-        </div>
-        <div class="header-pc">
-            <iframe src="header.html"
-                style="width: 100%; height: 100%; border: none;position: fixed; top:0; left: 0; z-index: 999;"></iframe>
-        </div>
-        <div class="hero">
-            <div class="hero-section">
-                <img src="images/banner1.jpg" alt="hero" class="hero-image">
-                <img src="images/banner2.jpg" alt="hero" class="hero-image">
-                <img src="images/banner3.jpg" alt="hero" class="hero-image">
+        <div class="iframe">
+            <div class="header-mobile">
+                <iframe src="header-mobile.html" style="width: 100%;  border: none;"></iframe>
+            </div>
+            <div class="header-pc">
+                <iframe src="header.html" style="width: 100%;  border: none; "></iframe>
+            </div>
+            <div class="hero">
+                <div class="hero-section">
+                    <img src="images/banner1.jpg" alt="hero" class="hero-image">
+                    <img src="images/banner2.jpg" alt="hero" class="hero-image">
+                    <img src="images/banner3.jpg" alt="hero" class="hero-image">
+                </div>
             </div>
         </div>
-        <div class="wrapper">
+        <div class="wrapper" style="position: absolute;   ;">
             <div class="content">
                 <div class="container">
                     <div class="story">
@@ -398,10 +398,10 @@
             </div>
 
         </div>
-
     </div>
-
     <script src="main.js"></script>
+    <script src="slider.js"></script>
+    <script src="autoSlider.js"></script>
 </body>
 
 </html>
