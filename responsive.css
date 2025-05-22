@@ -4,10 +4,10 @@
     }
 
     .header-mobile {
-        display: block !important;
+        display: flex !important;
     }
 
-    .header-pc {
+    .header {
         display: none !important;
     }
 
