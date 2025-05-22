@@ -1,0 +1,47 @@
+.base {
+    width: 1170px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.base2 {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+}
+
+.lienhe {
+    width: 100%;
+    margin-top: 15px;
+}
+
+.icon {
+    width: 4%;
+}
+
+.icon img {
+    width: 40px;
+    height: 40px;
+}
+
+.inforicon {
+    width: 96%;
+    font-size: 15px;
+    margin: 15px;
+}
+
+.contact {
+    border: 1px solid white;
+    width: 60%;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(94, 93, 93, 0.5);
+    margin-top: 20px;
+
+}
+
+.form {
+    width: 100%;
+    margin-left: 30px;
+}
