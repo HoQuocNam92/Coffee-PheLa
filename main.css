@@ -1,0 +1,18 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "K2D", sans-serif;
+    font-weight: 600;
+    --black: #000;
+    --white: #fff;
+
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
