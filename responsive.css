@@ -104,4 +104,36 @@
         margin-top: 40px !important;
 
     }
+
+
+    .blog_item {
+        max-width: 100%;
+    }
+
+    .featured_product_list,
+    .viewed_product_list,
+    .card_blog_list {
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+    .list_blog {
+        grid-template-columns: 1fr !important;
+
+    }
+
+    .list_blog {
+        height: 100%;
+    }
+
+    .card_item,
+    .card_product_item {
+        width: 100%;
+
+    }
+
+    .card_blog_list,
+    .viewed_product_layout {
+        height: 100%;
+    }
 }
