@@ -1,0 +1,91 @@
+.aaa {
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;     
+  padding: 0;
+  margin: 0;
+}
+
+.base {
+  width: 55%;
+  padding: 20px;
+}
+.base p {
+  font-size: 20px;
+
+}
+.doan
+{
+  margin-top: 20px;
+  width: 100%;
+}
+.baivietlq
+{
+  width: 100%;
+}
+.card
+{
+  width: 30%;
+  margin:10px;
+  float:left;
+
+  height: auto;
+}
+.card img
+{
+  width: 100%;
+  height: 160px;
+}
+.card img:hover
+{
+  opacity: 0.5;
+}
+.clear
+{
+  clear: both;
+}
+.tieude 
+{
+  height: 20px;
+  margin-bottom: 30px;
+  margin-right: 6px;
+}
+
+.tieude  a
+{
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  height: 10px;
+  background-color:white;
+}
+.tieude a:hover
+{
+  color: rgb(231, 188, 143);
+}
+.noidung{
+  width: 100%;
+}
+.noidung p
+{
+  font-size:normal;
+  text-align: left;
+  margin-right: 10px;
+}
+.chitiet
+{
+  text-align: center;
+  width: 60%;
+  margin: 30px -8px;
+}
+.chitiet a
+{
+  text-decoration: none;
+  color: white;
+  padding: 15px 25px;
+  background-color: rgb(230, 208, 166);
+  font-size: 17px;
+
+}
