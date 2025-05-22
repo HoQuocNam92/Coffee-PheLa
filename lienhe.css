@@ -1,17 +1,8 @@
-<<<<<<< HEAD
-.base
-{
-   width: 1170px;
-   justify-content: center;
-   align-items: center;
-
-=======
 .base {
     width: 1170px;
     justify-content: center;
     align-items: center;
     margin: auto;
->>>>>>> 6b6c7e61f40cc67a23e9d5a4f470dd68d44fd715
 }
 
 .base2 {
