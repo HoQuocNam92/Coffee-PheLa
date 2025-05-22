@@ -133,7 +133,7 @@
     }
 
     .card_blog_list,
-    .viewed_product_layout {
-        height: 100%;
+    .card_list {
+        grid-template-columns: 1fr 1fr !important;
     }
 }
