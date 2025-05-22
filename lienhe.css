@@ -1,45 +1,55 @@
+<<<<<<< HEAD
 .base
 {
    width: 1170px;
    justify-content: center;
    align-items: center;
 
+=======
+.base {
+    width: 1170px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+>>>>>>> 6b6c7e61f40cc67a23e9d5a4f470dd68d44fd715
 }
-.base2
-{
+
+.base2 {
     margin: 0;
     padding: 0;
     width: 80%;
 }
-.lienhe
-{
-    width:100%;
-    margin-top:15px;
+
+.lienhe {
+    width: 100%;
+    margin-top: 15px;
 }
-.icon
-{
+
+.icon {
     width: 4%;
-}.icon img
-{
+}
+
+.icon img {
     width: 40px;
     height: 40px;
 }
-.inforicon
-{
+
+.inforicon {
     width: 96%;
-    font-size:15px;
-    margin:15px ;
-}.contact
-{
-border: 1px solid white;
- width: 60%; 
- padding: 20px;
- box-shadow: 0 0 10px rgba(94, 93, 93, 0.5);
- margin-top:20px;
+    font-size: 15px;
+    margin: 15px;
+}
+
+.contact {
+    border: 1px solid white;
+    width: 60%;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(94, 93, 93, 0.5);
+    margin-top: 20px;
 
 }
-.form
-{
-    width:100%;
+
+.form {
+    width: 100%;
     margin-left: 30px;
 }

@@ -1,9 +1,13 @@
 @media (max-width : 768px) {
     .wrapper {
-        padding: 16px;
+        padding: 12px;
     }
 
-    .menu {
+    .header-mobile {
+        display: flex !important;
+    }
+
+    .header {
         display: none !important;
     }
 
@@ -44,5 +48,92 @@
     .text-right {
         order: 3;
 
+    }
+
+    .footer {
+        padding: 16px !important;
+    }
+
+    .diachi li {
+        padding: 0 !important;
+    }
+
+    .lienhe {
+        margin-left: 0 !important
+    }
+
+    .lienhe,
+    .diachi,
+    .thongtin {
+        width: 100% !important;
+    }
+
+    .card-image {
+        height: 370px !important;
+    }
+
+    .slider {
+        display: none !important;
+    }
+
+    .card_list_product {
+        display: grid;
+        grid-template-columns: 1fr !important;
+
+    }
+
+    .product_details {
+        display: block !important;
+    }
+
+    .product_img img {
+        width: 100% !important;
+        height: 100% !important;
+
+    }
+
+
+
+    .card {
+        box-shadow: 0px 0px 8px rgba(0, 0, 0, .2);
+        padding: 8px;
+
+    }
+
+    .hero {
+        margin-top: 40px !important;
+
+    }
+
+
+    .blog_item {
+        max-width: 100%;
+    }
+
+    .featured_product_list,
+    .viewed_product_list,
+    .card_blog_list {
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+    .list_blog {
+        grid-template-columns: 1fr !important;
+
+    }
+
+    .list_blog {
+        height: 100%;
+    }
+
+    .card_item,
+    .card_product_item {
+        width: 100%;
+
+    }
+
+    .card_blog_list,
+    .card_list {
+        grid-template-columns: 1fr 1fr !important;
     }
 }
