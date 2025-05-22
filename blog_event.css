@@ -62,11 +62,9 @@ body {
     color: #333333;
 }
 
-/* --Breadcrumb: End-- */
 
 
 
-/* --List-Blog: Begin-- */
 .list_blog {
     display: grid;
     grid-template-columns: 1fr 1fr;
