@@ -1,9 +1,13 @@
 @media (max-width : 768px) {
     .wrapper {
-        padding: 16px;
+        padding: 12px;
     }
 
-    .menu {
+    .header-mobile {
+        display: block !important;
+    }
+
+    .header-pc {
         display: none !important;
     }
 
@@ -88,13 +92,16 @@
 
     }
 
-    .wrapper {
-        padding: 16px;
-    }
+
 
     .card {
         box-shadow: 0px 0px 8px rgba(0, 0, 0, .2);
         padding: 8px;
+
+    }
+
+    .hero {
+        margin-top: 40px !important;
 
     }
 }
