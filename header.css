@@ -5,8 +5,7 @@
 }
 
 body {
-    font-family: "K2D", sans-serif;
-    font-weight: 600;
+    font-family: "K2D-SemiBold", sans-serif;
     --black: #000;
     --white: #fff;
 
@@ -52,5 +51,65 @@ body {
     padding: 22px 15px;
     color: var(--white);
     font-size: 14px;
+    font-weight: 500;
+}
 
+.menu-item {
+    position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Subnav */
+
+
+.subnav {
+    position: absolute;
+    top: 100%;
+    padding: 0 10px;
+    background-color: #000;
+    border-top: 1px solid #fff;
+    display: none;
+    width: 100%;
+}
+
+.subnavLong {
+    width: 250px;
+
+}
+
+.subnav>li {
+    list-style: none;
+    padding: 10px 0;
+
+}
+
+.special {
+    border-bottom: 1px solid #fff;
+}
+
+.subnav>li>a {
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.5s ease-in-out;
+}
+
+.subnav>li>a:hover {
+    color: #be7352;
+}
+
+.menu-item:hover .subnav {
+    display: block;
 }
