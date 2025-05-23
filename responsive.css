@@ -136,4 +136,8 @@
     .card_list {
         grid-template-columns: 1fr 1fr !important;
     }
+
+    iframe {
+        height: 680px !important;
+    }
 }
