@@ -15,12 +15,12 @@
 .product_sidebar {
     position: sticky;
     border-right: 1px #be7352 solid;
-    z-index: 999;
+    z-index: 2;
     top: 120px;
     padding: 10px;
     background-color: #fff;
     height: 100vh;
-    overflow-x: scroll;
+ 
 }
 
 .sidebar_list {
@@ -118,13 +118,13 @@
         padding: 0 28px !important;
     }
 
-    .product_sidebar {
-        height: 100%;
-        border: none;
-    }
+    
 
     .product_sidebar {
-        position: static !important
+        position: static !important;
+        overflow-x: scroll;
+        height: 100%;
+     border: none;
     }
 
     .sidebar_list {
