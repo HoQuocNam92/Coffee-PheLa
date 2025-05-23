@@ -24,6 +24,11 @@
   width: 100%;
 }
 
+.doan a {
+  display: inline-block;
+  word-break: break-all;
+}
+
 .baivietlq {
   width: 100%;
   display: grid;
