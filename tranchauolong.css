@@ -1,17 +1,3 @@
-<<<<<<< HEAD
-
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  background-color: #fafafa;
-  font-family: Arial, sans-serif;
-  padding: 20px;
-}
-=======
  .page-header {
    padding: 2rem 1rem 0;
    text-align: center;
@@ -22,7 +8,6 @@ body {
    margin-bottom: 10px;
    font-size: 20px;
  }
->>>>>>> 6aeb5c0fa885ba654daf9716acb272667d4acd43
 
  .column1 ul {
    list-style: none;
@@ -31,17 +16,10 @@ body {
    font-size: 14px;
  }
 
-<<<<<<< HEAD
-.page-header {
-  padding: 2rem 1rem 0;
-  text-align: center;
-}
-=======
  .pheLa a {
    color: #be7352;
    text-decoration: none;
  }
->>>>>>> 6aeb5c0fa885ba654daf9716acb272667d4acd43
 
  .muiten {
    padding: 0 2px;
