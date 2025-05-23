@@ -26,7 +26,6 @@
    color: #be7352;
  }
 
- /* ========== GRID CHUNG CHO CÁC CARD ========== */
  .cards-grid,
  .posts-grid {
    display: grid;
@@ -36,7 +35,6 @@
    margin: 0 auto 40px;
  }
 
- /* ========== BÀI VIẾT NỔI BẬT ========== */
  .featured-section .section-title,
  .section-title {
    text-align: center;
@@ -51,16 +49,7 @@
    padding: 0
  }
 
-<<<<<<< HEAD
-.cards-grid,
-.posts-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 20px;
-  max-width: 1200px;
-  margin: 0 auto 40px;
-}
-
+ 
 .featured-section .section-title,
 .section-title {
   text-align: center;
@@ -69,13 +58,7 @@
   margin-bottom: 24px;
 }
 
-* { box-sizing: border-box; margin:0; padding:0 }
-body {
-  font-family: Arial, sans-serif;
-  background: #fafafa;
-  color: #333;
-  line-height: 1.5;
-}
+ 
 
 .container {
   max-width: 1200px;
@@ -237,15 +220,7 @@ body {
 .footer-social a {
   font-size: 18px;
 }
-=======
- body {
-   font-family: Arial, sans-serif;
-   background: #fafafa;
-   color: #333;
-   line-height: 1.5;
- }
-
-
+ 
 
  .site-header {
    background: #fff;
@@ -291,12 +266,10 @@ body {
    padding: 8px 16px;
  }
 
- /* BREADCRUMB & PAGE TITLE */
  .breadcrumb {
    margin: 16px 0;
    font-size: 14px;
  }
->>>>>>> 6aeb5c0fa885ba654daf9716acb272667d4acd43
 
  .breadcrumb a {
    color: #be7352;
@@ -309,7 +282,6 @@ body {
    margin-bottom: 24px;
  }
 
- /* GRID CHUNG */
  .cards-grid,
  .posts-grid {
    display: grid;
@@ -318,7 +290,6 @@ body {
    margin-bottom: 40px;
  }
 
- /* CARD CHUNG */
  .card,
  .post-card {
    background: #fff;
@@ -333,7 +304,6 @@ body {
    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
  }
 
- /* BÀI VIẾT (Archive Posts) */
  .post-card .post-image img,
  .card .card-image img {
    width: 100%;
@@ -342,24 +312,13 @@ body {
    object-fit: cover;
  }
 
-<<<<<<< HEAD
-@media (max-width: 768px) {
-  .container {
-    padding: 0 16px;
-  }
-}
-=======
- .card .card-image {
-   height: 180px;
- }
->>>>>>> 6aeb5c0fa885ba654daf9716acb272667d4acd43
+ 
 
  .card-content,
  .post-card>.post-excerpt {
    padding: 16px;
  }
 
- /* TIÊU ĐỀ & ĐỌC THÊM */
  .card-title a,
  .post-card .post-title a {
    font-size: 18px;
@@ -370,20 +329,8 @@ body {
    font-weight: bold;
  }
 
-<<<<<<< HEAD
-  .card-image {
-    height: 140px;
-  }
-=======
- .read-more {
-   color: #be7352;
-   font-weight: bold;
-   margin-top: 8px;
-   display: inline-block;
- }
->>>>>>> 6aeb5c0fa885ba654daf9716acb272667d4acd43
+ 
 
- /* BÀI VIẾT NỔI BẬT */
  .featured-section .section-title,
  .products-section .section-title {
    font-size: 24px;
@@ -396,7 +343,6 @@ body {
    color: #555;
  }
 
- /* SẢN PHẨM NỔI BẬT */
  .products-section .post-card {
    text-align: center;
    padding: 24px 16px;
@@ -415,7 +361,6 @@ body {
    font-weight: bold;
  }
 
- /* FOOTER */
  .site-footer {
    background: #fff;
    padding: 40px 0;
@@ -493,7 +438,6 @@ body {
  .post-excerpt {
    font-size: 14px;
    color: #555;
-   margin: 0 16px 16px;
    line-height: 1.5;
    flex-grow: 1;
  }
@@ -560,9 +504,11 @@ body {
  }
 
  @media (max-width: 768px) {
+
+
+
    .products-grid {
-     grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-     gap: 12px;
+     grid-template-columns: 1fr !important;
    }
 
    .product-card__title {
