@@ -1,11 +1,10 @@
-/* ========== RESET CƠ BẢN ========== */
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-/* ========== BODY & CONTAINER CHUNG ========== */
 body {
   background-color: #fafafa;
   font-family: Arial, sans-serif;
@@ -18,7 +17,6 @@ body {
   padding: 0 30px;
 }
 
-/* ========== HEADER & BREADCRUMB ========== */
 .page-header {
   padding: 2rem 1rem 0;
   text-align: center;
@@ -47,7 +45,6 @@ body {
   color: #be7352;
 }
 
-/* ========== GRID CHUNG CHO CÁC CARD ========== */
 .cards-grid,
 .posts-grid {
   display: grid;
@@ -57,14 +54,14 @@ body {
   margin: 0 auto 40px;
 }
 
-/* ========== BÀI VIẾT NỔI BẬT ========== */
 .featured-section .section-title,
 .section-title {
   text-align: center;
   font-size: 28px;
   color: #222;
   margin-bottom: 24px;
-}/* RESET & BODY */
+}
+
 * { box-sizing: border-box; margin:0; padding:0 }
 body {
   font-family: Arial, sans-serif;
@@ -73,14 +70,12 @@ body {
   line-height: 1.5;
 }
 
-/* CONTAINER */
 .container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 16px;
 }
 
-/* HEADER NAV */
 .site-header {
   background: #fff;
   box-shadow: 0 1px 3px rgba(0,0,0,0.1);
@@ -114,7 +109,6 @@ body {
 .sub-menu li { margin: 0; }
 .sub-menu a { padding: 8px 16px; }
 
-/* BREADCRUMB & PAGE TITLE */
 .breadcrumb {
   margin: 16px 0;
   font-size: 14px;
@@ -126,7 +120,6 @@ body {
   margin-bottom: 24px;
 }
 
-/* GRID CHUNG */
 .cards-grid,
 .posts-grid {
   display: grid;
@@ -135,7 +128,6 @@ body {
   margin-bottom: 40px;
 }
 
-/* CARD CHUNG */
 .card,
 .post-card {
   background: #fff;
@@ -149,7 +141,6 @@ body {
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
-/* BÀI VIẾT (Archive Posts) */
 .post-card .post-image img,
 .card .card-image img {
   width: 100%;
@@ -163,7 +154,6 @@ body {
   padding: 16px;
 }
 
-/* TIÊU ĐỀ & ĐỌC THÊM */
 .card-title a,
 .post-card .post-title a {
   font-size: 18px;
@@ -180,7 +170,6 @@ body {
   display: inline-block;
 }
 
-/* BÀI VIẾT NỔI BẬT */
 .featured-section .section-title,
 .products-section .section-title {
   font-size: 24px;
@@ -192,7 +181,6 @@ body {
   color: #555;
 }
 
-/* SẢN PHẨM NỔI BẬT */
 .products-section .post-card {
   text-align: center;
   padding: 24px 16px;
@@ -209,7 +197,6 @@ body {
   font-weight: bold;
 }
 
-/* FOOTER */
 .site-footer {
   background: #fff;
   padding: 40px 0;
@@ -285,7 +272,6 @@ body {
   flex-grow: 1;
 }
 
-/* ========== MEDIA QUERIES ========== */
 @media (max-width: 768px) {
   .container {
     padding: 0 16px;
@@ -302,7 +288,7 @@ body {
   }
 
   .card-image {
-    height: 140px;  /* ảnh sản phẩm cao hơn trên mobile */
+    height: 140px;
   }
 
   .card-title,
