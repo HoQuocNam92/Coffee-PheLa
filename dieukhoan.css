@@ -1,0 +1,110 @@
+.banner {
+  width: 100%;
+  height: 300px;
+}
+
+.banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.base {
+
+  padding: 20px;
+}
+
+.base p {
+  font-size: 20px;
+
+}
+
+.doan {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.doan a {
+  display: inline-block;
+  word-break: break-all;
+}
+
+.baivietlq {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card img:hover {
+  opacity: 0.5;
+}
+
+.clear {
+  clear: both;
+}
+
+.tieude {
+  height: 20px;
+  margin-bottom: 30px;
+  margin-right: 6px;
+}
+
+.tieude a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  height: 10px;
+  background-color: white;
+}
+
+.tieude a:hover {
+  color: rgb(231, 188, 143);
+}
+
+.noidung {
+  width: 100%;
+}
+
+.noidung p {
+  font-size: normal;
+  text-align: left;
+  margin-right: 10px;
+}
+
+
+
+.chitiet a {
+  margin-top: 28px;
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  padding: 15px 25px;
+  background-color: rgb(230, 208, 166);
+  font-size: 17px;
+
+}
+
+
+
+@media (max-width:768px) {
+  .baivietlq {
+    grid-template-columns: 1fr !important;
+  }
+
+  .banner {
+    height: 200px !important;
+  }
+
+  .aaa {
+    margin-top: 40px !important;
+  }
+}

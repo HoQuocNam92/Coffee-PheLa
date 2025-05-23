@@ -1,0 +1,184 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "K2D-Regular";
+    font-weight: 600;
+    --black: #000;
+    --white: #fff;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+/* --Banner: Begin-- */
+.banner_page {
+    text-align: center;
+}
+
+.banner_page--name {
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 300;
+    color: #333333;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* --Banner: End-- */
+
+
+
+/* --Breadcrumb: Begin-- */
+.breadcrumb {
+    padding: 30px 0;
+}
+
+.breadcrumb_item {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    font-weight: 500
+}
+
+.breadcrumb_name {
+    font-size: 14px;
+    color: #be7352;
+}
+
+.breadcrumb_icon {
+    font-size: 12px;
+    color: #be7352;
+    padding: 0 4px;
+}
+
+.current_item--name {
+    font-size: 14px;
+    font-weight: 300;
+    color: #333333;
+}
+
+
+
+
+.list_blog {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    height: auto;
+}
+
+
+
+.blog_item img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.blog_title {
+    font-size: 18px;
+    color: #222222;
+    text-decoration: none;
+}
+
+.blog_description {
+    font-size: 16px;
+    font-weight: 400;
+    color: #8c8c8c;
+    margin: 12px 0;
+}
+
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.list_blog_name {
+    line-height: 70px;
+}
+
+.name_blog_list {
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #222222;
+    text-align: center;
+}
+
+.card_blog_list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 28px 0;
+}
+
+.card_item {
+    width: 100%;
+
+}
+
+.card_item img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.card_title_a {
+    margin: 12px 0;
+}
+
+.card_title {
+    font-size: 16px;
+    text-decoration: none;
+    color: #222222;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+
+.card_list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 28px 0;
+}
+
+
+
+.card_product_item img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.card_product--name {
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 16px 0;
+    font-weight: 500;
+}
+
+.card_product--cost {
+    font-size: 16px;
+    color: #be7352;
+    font-weight: 500;
+}
+
+/* --Viewed-Product: End-- */
+
+
+
+/* --Feature-Product: Begin-- */
+.featured_product_layout {
+    height: 975px;
+}
+
+/* --Feature-Product: End-- */

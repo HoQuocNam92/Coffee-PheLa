@@ -1,0 +1,162 @@
+.product {
+    margin-top: 0 !important;
+}
+
+.wrapper {
+    padding: 60px 0;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    padding: 60px 0;
+}
+
+.product_sidebar {
+    position: sticky;
+    border-right: 1px #be7352 solid;
+    z-index: 2;
+    top: 120px;
+    padding: 10px;
+    background-color: #fff;
+    height: max-content;
+
+}
+
+
+
+.sidebar_list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 90%;
+}
+
+
+
+.item_name {
+    text-decoration: none;
+    font-size: 14px;
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: 100;
+    display: block;
+    padding: 10px;
+}
+
+.product_menu {
+
+    padding-left: 23px;
+}
+
+
+
+.product_item {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 20px;
+}
+
+
+.product_title {
+    margin-bottom: 30px;
+}
+
+.title_product {
+    text-transform: uppercase;
+    color: #222222;
+    font-size: 30px;
+    height: 60px;
+    line-height: 60px;
+}
+
+/* card */
+.product_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.product_card img {
+    width: 100%;
+}
+
+.card_content {
+    font-family: "K2D-Semibold";
+    padding: 25px 0;
+}
+
+.card_name {
+    text-transform: uppercase;
+    color: #000000;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 550;
+}
+
+.card_box {
+    margin-top: 20px;
+}
+
+.card_cost {
+    font-size: 16px;
+    color: #be7352;
+    margin-bottom: 10px;
+}
+
+.btn_card {
+    background-color: #ddc3af;
+    padding: 11px 34px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+
+.btn_card a {
+    color: #ffff;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.btn_card:hover {
+
+    background-color: #be7352;
+}
+
+@media (max-width: 768px) {
+
+    .content {
+        grid-template-columns: 1fr !important;
+        padding: 0 28px !important;
+    }
+
+
+
+    .product_sidebar {
+        position: static !important;
+        overflow-x: scroll;
+        height: 100%;
+        border: none;
+    }
+
+    .sidebar_list {
+        display: flex;
+        white-space: nowrap;
+    }
+
+    .sidebar_item {
+        padding: 0 !important;
+        width: 100%;
+    }
+
+    .product_menu {
+        padding-left: 0 !important;
+    }
+
+    .product_item {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+}

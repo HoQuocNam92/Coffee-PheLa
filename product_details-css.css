@@ -1,0 +1,176 @@
+.wrapper {
+    margin-top: 80px;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.breadcrumb {
+    margin: 24px 0;
+}
+
+.breadcrumb_item {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    font-weight: 500
+}
+
+.breadcrumb_name {
+    color: #be7352;
+}
+
+.breadcrumb_icon {
+    font-size: 12px;
+    color: #be7352;
+    padding: 0 4px;
+}
+
+.current_item--name {
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+.product_details {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap: 0;
+}
+
+.product_img {
+    flex: 2;
+    width: 100%;
+    min-height: 400px;
+}
+
+.product_img img {
+    width: 90%;
+    height: 520px;
+}
+
+
+
+.product_info--name {
+    color: #000;
+    display: block;
+    font-size: 30px;
+    text-transform: uppercase;
+    line-height: 60px;
+}
+
+.product_info--cost {
+    color: #f58b74;
+    font-size: 24px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.btn_product_info {
+    width: 148px;
+    height: 52px;
+    background-color: #f58b74;
+    border: none;
+    margin: 16px 0;
+    cursor: pointer;
+}
+
+.btn_product_info a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+    padding: 15px 30px;
+}
+
+
+
+
+
+
+
+.product_element {
+    margin: 64px 0;
+}
+
+.element_list {
+    text-align: center;
+}
+
+.profile_product {}
+
+.profile_name {
+    font-size: 26px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 600;
+    color: #555555;
+    position: relative;
+}
+
+.profile_name::before {
+    position: absolute;
+    content: ' ';
+    width: 50%;
+    height: 5px;
+    background-color: #be7352;
+    bottom: 5px;
+    top: 120%;
+    left: 25%;
+}
+
+.profile_content {
+    color: #343434;
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 28px;
+}
+
+
+.sidebar_list {
+    margin: 64px 0;
+}
+
+.name_product_list {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 24px 0;
+    text-transform: uppercase;
+}
+
+.card_list_product {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.card-content {}
+
+.card_item {
+    text-align: left;
+
+}
+
+.card_item img {
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
+}
+
+.card_item--name {
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 16px 0;
+    font-weight: 500;
+}
+
+.card_item--cost {
+    font-size: 16px;
+    color: #be7352;
+    font-weight: 500;
+}
