@@ -19,9 +19,11 @@
     top: 120px;
     padding: 10px;
     background-color: #fff;
-    height: 100vh;
- 
+    height: max-content;
+
 }
+
+
 
 .sidebar_list {
     list-style: none;
@@ -118,13 +120,13 @@
         padding: 0 28px !important;
     }
 
-    
+
 
     .product_sidebar {
         position: static !important;
         overflow-x: scroll;
         height: 100%;
-     border: none;
+        border: none;
     }
 
     .sidebar_list {
