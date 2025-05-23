@@ -159,9 +159,8 @@
         margin: 16px 0;
     }
 
-    .card-img {
-        width: 360px !important;
-        height: 360px !important;
+    .collage {
+        display: none !important;
     }
 
     .feature-item {
@@ -174,5 +173,9 @@
     .gallery-section,
     .quick-features {
         padding: 0 28px !important;
+    }
+
+    .header-nav {
+        display: none !important;
     }
 }
