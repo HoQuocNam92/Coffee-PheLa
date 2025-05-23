@@ -1,0 +1,36 @@
+.anh
+{
+    width: 100%;
+    height:300px;
+}
+.anh img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.anhgt
+{
+    width: 100%;
+    margin-top:20px;
+        object-fit: cover;
+}
+.ghichu
+{
+    font-weight: 300;
+    text-align: center;
+    margin: 15px;
+    font-style: italic;
+}
+.mauchu
+{
+    font-weight: 400;
+}
+
+.khung {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;   
+   width: 80%;
+}
