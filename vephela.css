@@ -1,0 +1,427 @@
+.banner_page {
+  width: 100%;
+  height: 300px;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #8C8C8C;
+  border: 1px solid black
+}
+
+.banner_page h1 {
+  color: white;
+  font-size: 50px;
+  padding-top: 95px;
+}
+
+.container {
+  max-width: 100%;
+  height: 100%;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.about-pla__content {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+  padding: 60px 0px 60px 0px;
+}
+
+/* Cột text */
+.about-pla__text {
+  flex: 1;
+}
+
+.about-pla__text h3 {
+  font-size: 20px;
+  margin-bottom: 16px;
+  color: #222;
+  text-align: left;
+}
+
+.about-pla__text p {
+  font-size: 14px;
+  color: #8C8C8C;
+  line-height: 1.6;
+  margin-bottom: 16px;
+  text-align: left;
+}
+
+.mauchu {
+  color: black;
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 16px;
+  text-align: left;
+}
+
+
+.about-pla__image {
+  flex: 1;
+  overflow: hidden;
+}
+
+.about-pla__image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  border-radius: 4px;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.about-pla__image img:hover {
+  transform: scale(1.3);
+}
+
+.values {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  margin: 60px auto 40px;
+  flex-wrap: wrap;
+  max-width: 800px;
+  padding: 0 16px;
+}
+
+.value-card {
+  flex: 1 1 200px;
+  text-align: center;
+}
+
+.value-icon {
+  margin-bottom: 16px;
+}
+
+.value-icon img {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+}
+
+.value-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #222;
+  margin-bottom: 8px;
+}
+
+.value-desc {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.5;
+}
+
+.achievements-section {
+  max-width: 1200px;
+  margin: 60px auto;
+  padding: 0 16px;
+}
+
+.achievements-section .section-title {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 40px;
+  color: #222;
+}
+
+
+.achievements-grid {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.achievement-card {
+  flex: 1 1 250px;
+  text-align: center;
+  max-width: 300px;
+}
+
+.achievement-icon {
+  margin-bottom: 16px;
+}
+
+.achievement-icon img {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+}
+
+.achievement-number {
+  font-size: 28px;
+  font-weight: bold;
+  color: #D39F2A;
+  margin-bottom: 12px;
+}
+
+.achievement-desc {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.5;
+}
+
+.timeline-section {
+  max-width: 1200px;
+  margin: 0 auto 60px;
+  padding: 0 16px;
+}
+
+.timeline-title {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 24px;
+  color: #222;
+}
+
+
+.timeline-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.timeline-arrow {
+  background: none;
+  border: none;
+  font-size: 32px;
+  color: #ccc;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  transition: color .2s;
+}
+
+.timeline-arrow:hover {
+  color: #999;
+}
+
+
+.timeline-track {
+  display: flex;
+  gap: 80px;
+  padding: 20px 0;
+  flex: 1;
+  position: relative;
+  justify-content: center;
+}
+
+
+.timeline-track::before {
+  content: "";
+  position: absolute;
+  top: 60%;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: #e0d6c8;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+
+.timeline-event {
+  position: relative;
+  width: 200px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  z-index: 2;
+}
+
+.timeline-event .event-content {
+  margin-bottom: 16px;
+}
+
+.timeline-event h4 {
+  font-size: 16px;
+  margin-bottom: 8px;
+  color: #222;
+}
+
+.timeline-event p {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.4;
+}
+
+
+.timeline-event .event-image {
+  width: 120px;
+  height: 80px;
+  overflow: hidden;
+  margin-bottom: 8px;
+  transform: rotate(-3deg);
+}
+
+.timeline-event .event-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin-top: 20px;
+}
+
+
+.timeline-event .event-date {
+  background: #d8b28f;
+  color: #fff;
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 12px;
+  position: absolute;
+  top: 60%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+}
+
+
+
+.core-values {
+  max-width: 1200px;
+  margin: 60px auto;
+  padding: 0 16px;
+}
+
+.core-title {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 40px;
+  color: #222;
+}
+
+.core-container {
+  position: relative;
+  padding: 20px 0;
+}
+
+.core-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 2px;
+  background: #e0d6c8;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+.core-item {
+  display: flex;
+  width: 100%;
+  margin-bottom: 60px;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+}
+
+.core-item.left {
+  justify-content: flex-start;
+}
+
+.core-item.right {
+  justify-content: flex-end;
+}
+
+.core-content,
+.core-image {
+  width: 45%;
+}
+
+.core-item.left .core-content {
+  order: 1;
+  text-align: right;
+  padding-right: 60px;
+}
+
+.core-item.left .core-dot {
+  order: 2;
+}
+
+.core-item.left .core-image {
+  margin-left: 20px;
+  order: 3;
+}
+
+.core-item.right .core-image {
+  margin-right: 20px;
+  order: 1;
+}
+
+.core-item.right .core-dot {
+  order: 2;
+}
+
+.core-item.right .core-content {
+  order: 3;
+  text-align: left;
+  padding-left: 60px;
+}
+
+.core-dot {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 20px;
+  height: 20px;
+  background: #fff;
+  border: 2px solid #e0d6c8;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.core-content h3 {
+  font-size: 18px;
+  margin-bottom: 12px;
+  color: #222;
+}
+
+.core-content p {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.6;
+}
+
+.core-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 4px;
+}
+
+
+
+
+@media (max-width: 768px) {
+  .about-pla__content {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .core-container {
+    display: block !important;
+  }
+
+  .timeline-track {
+    display: block !important;
+  }
+
+  .timeline-track::before {
+    display: none !important;
+  }
+
+  .timeline-event,
+  .timeline-event .event-image {
+    width: 100% !important;
+    height: 100% !important;
+  }
+}
