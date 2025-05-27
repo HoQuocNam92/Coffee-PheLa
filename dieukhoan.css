@@ -24,6 +24,11 @@
   width: 100%;
 }
 
+.doan a {
+  display: inline-block;
+  word-break: break-all;
+}
+
 .baivietlq {
   width: 100%;
   display: grid;
@@ -86,20 +91,4 @@
   background-color: rgb(230, 208, 166);
   font-size: 17px;
 
-}
-
-
-
-@media (max-width:768px) {
-  .baivietlq {
-    grid-template-columns: 1fr !important;
-  }
-
-  .banner {
-    height: 200px !important;
-  }
-
-  .aaa {
-    margin-top: 40px !important;
-  }
 }
