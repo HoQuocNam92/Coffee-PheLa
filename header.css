@@ -1,0 +1,137 @@
+.header {
+    background-color: #000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+
+
+
+
+
+.header .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .navbar .logo img {
+    width: 40px;
+    height: 40px;
+}
+
+.header .navbar .menu {
+    display: flex;
+    list-style: none;
+
+}
+
+
+
+.header .menu .menu-link {
+    display: block;
+    text-decoration: none;
+    padding: 22px 15px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.header .menu-item {
+    position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Subnav */
+
+
+.header .subnav {
+    position: absolute;
+    top: 100%;
+    padding: 0 10px;
+    background-color: #000;
+    border-top: 1px solid #fff;
+    display: none;
+    width: 100%;
+}
+
+.header .subnavLong {
+    width: 250px;
+
+}
+
+.header .subnav>li {
+    list-style: none;
+    padding: 10px 0;
+
+}
+
+.special {
+    border-bottom: 1px solid #fff;
+}
+
+.header .subnav>li>a {
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.5s ease-in-out;
+}
+
+.header .subnav>li>a:hover {
+    color: #be7352;
+}
+
+.header .menu-item:hover .subnav {
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+.header .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .navbar .logo img {
+    width: 40px;
+    height: 40px;
+}
+
+.header .navbar .menu {
+    display: flex;
+    list-style: none;
+
+}
+
+
+
+.header .menu .menu-link {
+    display: block;
+    text-decoration: none;
+    padding: 22px 15px;
+    color: #fff;
+    font-size: 14px;
+
+}
