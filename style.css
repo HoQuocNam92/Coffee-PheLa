@@ -2,21 +2,6 @@
      margin-top: 60px;
  }
 
- /* Header mobile */
-
- .header-mobile {
-     height: 40px;
-     background-color: #000;
-     align-items: center;
-     justify-content: center;
-     position: fixed;
-     width: 100%;
-     padding: 0 16px;
-     top: 0;
-     display: none;
-     z-index: 9999;
-
- }
 
  .thongtin a {
      text-decoration: none;
@@ -32,82 +17,7 @@
 
  }
 
- .header-mobile .icon {
-     font-size: 30px;
-     color: #fff;
-     padding: 4px;
-     position: absolute;
-     top: 0;
-     left: 0;
-     cursor: pointer;
- }
 
- .header-mobile .close {
-     display: none;
- }
-
- .header-mobile .menu {
-     position: fixed;
-     inset: 0;
-     background-color: #000;
-     padding: 10px;
-     margin-top: 40px;
-     display: none;
-
- }
-
- .header-mobile .menu-item {
-     padding: 15px 0;
- }
-
- .header-mobile .menu-link {
-     color: #fff;
-     text-decoration: none;
-     font-size: 14px;
- }
-
-
- .header-mobile .submenu {
-     position: relative;
-     top: 100%;
-     width: 100%;
-     padding: 0 10px;
-     display: none;
- }
-
- .header-mobile .submenu>li {
-     padding: 10px 0;
-
- }
-
- .header-mobile .submenu>li>a {
-     color: #fff;
-     font-size: 14px;
-     text-decoration: none;
-     display: block;
-     transition: all 0.5s ease-in-out;
- }
-
- .header-mobile .submenu>li>a:hover {
-     color: #be7352;
- }
-
- .header-mobile .menu-item:hover .submenu {
-     display: block;
- }
-
- .active {
-     display: block !important;
- }
-
-
-
-
-
-
-
-
- /* Header-pc */
  .header {
      background-color: #000;
      position: fixed;

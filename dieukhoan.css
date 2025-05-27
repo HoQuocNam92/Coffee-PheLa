@@ -92,19 +92,3 @@
   font-size: 17px;
 
 }
-
-
-
-@media (max-width:768px) {
-  .baivietlq {
-    grid-template-columns: 1fr !important;
-  }
-
-  .banner {
-    height: 200px !important;
-  }
-
-  .aaa {
-    margin-top: 40px !important;
-  }
-}

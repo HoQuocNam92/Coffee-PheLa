@@ -82,7 +82,6 @@
 }
 
 .card_content {
-    font-family: "K2D-Semibold";
     padding: 25px 0;
 }
 
@@ -122,41 +121,4 @@
 .btn_card:hover {
 
     background-color: #be7352;
-}
-
-@media (max-width: 768px) {
-
-    .content {
-        grid-template-columns: 1fr !important;
-        padding: 0 28px !important;
-    }
-
-
-
-    .product_sidebar {
-        position: static !important;
-        overflow-x: scroll;
-        height: 100%;
-        border: none;
-    }
-
-    .sidebar_list {
-        display: flex;
-        white-space: nowrap;
-    }
-
-    .sidebar_item {
-        padding: 0 !important;
-        width: 100%;
-    }
-
-    .product_menu {
-        padding-left: 0 !important;
-    }
-
-    .product_item {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 20px;
-    }
 }

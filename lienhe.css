@@ -119,29 +119,3 @@
 .info-text p {
     font-weight: 300;
 }
-
-
-
-@media (max-width:768px) {
-    .base {
-        order: 1;
-
-    }
-
-    .wrapper {
-        padding: 0 28px !important;
-    }
-
-    .form {
-        padding: 15px !important;
-    }
-
-    .contact {
-        margin-top: 60px;
-    }
-
-    .info-section {
-        margin: 0 !important;
-        padding: 0 !important;
-    }
-}

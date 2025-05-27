@@ -13,12 +13,6 @@
   padding-top: 95px;
 }
 
-.container {
-  max-width: 100%;
-  height: 100%;
-  text-align: center;
-  vertical-align: middle;
-}
 
 .about-pla__content {
   display: flex;
@@ -30,7 +24,6 @@
   padding: 60px 0px 60px 0px;
 }
 
-/* Cột text */
 .about-pla__text {
   flex: 1;
 }
@@ -396,32 +389,4 @@
   height: auto;
   display: block;
   border-radius: 4px;
-}
-
-
-
-
-@media (max-width: 768px) {
-  .about-pla__content {
-    flex-direction: column;
-    gap: 24px;
-  }
-
-  .core-container {
-    display: block !important;
-  }
-
-  .timeline-track {
-    display: block !important;
-  }
-
-  .timeline-track::before {
-    display: none !important;
-  }
-
-  .timeline-event,
-  .timeline-event .event-image {
-    width: 100% !important;
-    height: 100% !important;
-  }
 }
