@@ -97,12 +97,6 @@
     margin-top: 20px;
 }
 
-.card_cost {
-    font-size: 16px;
-    color: #be7352;
-    margin-bottom: 10px;
-}
-
 .btn_card {
     background-color: #ddc3af;
     padding: 11px 34px;
@@ -131,4 +125,25 @@
   padding: 8px;
   box-sizing: border-box;
   font-size: 14px;
+}
+.card_cost {
+  display: flex;
+  gap: 8px;
+  align-items: baseline;
+  font-size: 16px;
+    color: #be7352;
+    margin-bottom: 10px;
+}
+
+
+.original-price {
+  text-decoration: line-through;
+  color: #999;
+  font-size: 14px;
+}
+
+.sale-price {
+  color: #be7352;
+  font-weight: bold;
+  font-size: 16px;
 }
