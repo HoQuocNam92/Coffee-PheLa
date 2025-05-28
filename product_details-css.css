@@ -32,7 +32,15 @@
     font-size: 14px;
 }
 
-
+.original-price {
+  text-decoration: line-through;
+  color: gray;
+}
+.discount-price {
+  color: #f47c6d;
+  font-weight: bold;
+  margin-left: 10px;
+}
 
 
 
