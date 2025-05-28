@@ -182,3 +182,35 @@
     color: #be7352;
     font-weight: 500;
 }
+.product_img {
+  width: 400px;
+  margin: auto;
+  text-align: center;
+}
+
+.product_img img {
+  width: 100%;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+}
+
+.thumbnail_gallery {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  gap: 8px;
+}
+
+.thumbnail_gallery img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border: 2px solid transparent;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: border 0.2s;
+}
+
+.thumbnail_gallery img:hover {
+  border-color: #f75f2d;
+}
