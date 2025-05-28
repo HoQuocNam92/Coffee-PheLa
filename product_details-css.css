@@ -214,3 +214,66 @@
 .thumbnail_gallery img:hover {
   border-color: #f75f2d;
 }
+.review_section {
+    margin-top: 50px;
+    border-top: 1px solid #ddd;
+    padding-top: 30px;
+    font-family: Arial, sans-serif;
+}
+
+.review_section h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.review_summary {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #f75f2d;
+}
+
+.rating_score {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.review_card {
+    border: 1px solid #eee;
+    border-radius: 6px;
+    padding: 15px;
+    background-color: #fafafa;
+}
+
+.review_header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.review_user {
+    font-weight: bold;
+}
+
+.review_rating {
+    color: #f1c40f;
+}
+
+.review_content {
+    font-size: 14px;
+    color: #333;
+}
+
+.review_media {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.review_media img,
+.review_media video {
+    width: 100px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
