@@ -118,6 +118,7 @@
 
 .info-text p {
     font-weight: 300;
+<<<<<<< HEAD
 }
 
 
@@ -144,4 +145,6 @@
         margin: 0 !important;
         padding: 0 !important;
     }
+=======
+>>>>>>> 0cbaa557bb3ec1166d868695bf817306e3fe8c88
 }

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
  body {
      font-family: "K2D", sans-serif;
      font-weight: 600;
@@ -6,10 +7,13 @@
 
  }
 
+=======
+>>>>>>> 0cbaa557bb3ec1166d868695bf817306e3fe8c88
  .wrapper {
      margin-top: 60px;
  }
 
+<<<<<<< HEAD
  /* Header mobile */
 
  .header-mobile {
@@ -25,13 +29,19 @@
      z-index: 9999;
 
  }
+=======
+>>>>>>> 0cbaa557bb3ec1166d868695bf817306e3fe8c88
 
  .thongtin a {
      text-decoration: none;
      color: white;
  }
 
+<<<<<<< HEAD
 .clear {
+=======
+ .clear {
+>>>>>>> 0cbaa557bb3ec1166d868695bf817306e3fe8c88
      clear: both;
  }
 
@@ -40,6 +50,7 @@
 
  }
 
+<<<<<<< HEAD
  .header-mobile .icon {
      font-size: 30px;
      color: var(--white);
@@ -118,6 +129,11 @@
  /* Header-pc */
  .header {
      background-color: var(--black);
+=======
+
+ .header {
+     background-color: #000;
+>>>>>>> 0cbaa557bb3ec1166d868695bf817306e3fe8c88
      position: fixed;
      top: 0;
      left: 0;
@@ -153,7 +169,11 @@
      display: block;
      text-decoration: none;
      padding: 22px 15px;
+<<<<<<< HEAD
      color: var(--white);
+=======
+     color: #fff;
+>>>>>>> 0cbaa557bb3ec1166d868695bf817306e3fe8c88
      font-size: 14px;
      font-weight: 500;
  }
@@ -249,7 +269,11 @@
      display: block;
      text-decoration: none;
      padding: 22px 15px;
+<<<<<<< HEAD
      color: var(--white);
+=======
+     color: #fff;
+>>>>>>> 0cbaa557bb3ec1166d868695bf817306e3fe8c88
      font-size: 14px;
 
  }
@@ -302,7 +326,11 @@
  .btn a {
      display: inline-block;
      text-decoration: none;
+<<<<<<< HEAD
      color: var(--white);
+=======
+     color: #fff;
+>>>>>>> 0cbaa557bb3ec1166d868695bf817306e3fe8c88
      cursor: pointer;
      transition: all 0.2s ease-in-out;
      cursor: pointer;
@@ -475,7 +503,11 @@
      font-size: 14px;
      text-decoration: none;
      background-color: #73ccc6;
+<<<<<<< HEAD
      color: var(--white)
+=======
+     color: #fff;
+>>>>>>> 0cbaa557bb3ec1166d868695bf817306e3fe8c88
  }
 
  .card-title {
@@ -495,12 +527,20 @@
 
  .card-content .btn {
      margin: 18px 0 !important;
+<<<<<<< HEAD
      background-color: var(--white) !important;
+=======
+     background-color: #fff !important;
+>>>>>>> 0cbaa557bb3ec1166d868695bf817306e3fe8c88
      border: 2px solid #ccc;
  }
 
  .card-content .btn a {
+<<<<<<< HEAD
      color: var(--black) !important;
+=======
+     color: #000 !important;
+>>>>>>> 0cbaa557bb3ec1166d868695bf817306e3fe8c88
 
  }
 
@@ -566,7 +606,11 @@
      grid-template-columns: 1fr 1fr;
      gap: 32px;
      padding: 40px;
+<<<<<<< HEAD
      background-color: var(--white);
+=======
+     background-color: #fff;
+>>>>>>> 0cbaa557bb3ec1166d868695bf817306e3fe8c88
      box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
  }
 
@@ -634,7 +678,11 @@
 
  .list-address .address {
      position: relative;
+<<<<<<< HEAD
      color: var(--white);
+=======
+     color: #fff;
+>>>>>>> 0cbaa557bb3ec1166d868695bf817306e3fe8c88
      width: 33.33333%;
      flex-shrink: 0;
      transition: all 0.5s ease-in-out;
@@ -696,10 +744,17 @@
  /* Footer */
 
  .footer {
+<<<<<<< HEAD
      background-color: var(--black);
      width: 100%;
      padding: 20px 0;
      color: var(--white);
+=======
+     background-color: #000;
+     width: 100%;
+     padding: 20px 0;
+     color: #fff;
+>>>>>>> 0cbaa557bb3ec1166d868695bf817306e3fe8c88
  }
 
  .footer .logo {
@@ -730,7 +785,11 @@
 
  .thongtin a {
      text-decoration: none;
+<<<<<<< HEAD
      color: var(--white);
+=======
+     color: #fff;
+>>>>>>> 0cbaa557bb3ec1166d868695bf817306e3fe8c88
 
  }
 
@@ -747,13 +806,21 @@
  .diachi li {
      list-style: none;
      padding: 5px;
+<<<<<<< HEAD
      color: var(--white);
+=======
+     color: #fff;
+>>>>>>> 0cbaa557bb3ec1166d868695bf817306e3fe8c88
 
  }
 
  .diachi a {
      text-decoration: none;
+<<<<<<< HEAD
      color: var(--white);
+=======
+     color: #fff;
+>>>>>>> 0cbaa557bb3ec1166d868695bf817306e3fe8c88
 
  }
 

@@ -1,0 +1,98 @@
+.header {
+    background-color: #f8f5f5;
+    height: auto;
+    width: 100%;
+    border-radius: 3px 4px;
+}
+
+.content-left {
+    color: #ff6a00;
+    float: left;
+    width: 10%;
+    margin: 20px;
+    margin-left: 40px;
+}
+
+    .content-left img {
+        width: 80px;
+        height: 20px;
+        margin-top: 10px;
+    }
+
+.content-right {
+    float: left;
+    width: 60%;
+    text-align: left;
+    margin-top: 20px
+}
+
+    .content-right ul {
+        list-style: none;
+    }
+
+        .content-right ul li {
+            display: inline-block;
+            margin-left: 5px;
+            margin-bottom: 25px;
+        }
+
+            .content-right ul li a {
+                text-decoration: none;
+                color: black;
+                padding: 8px 20px;
+                border: 1px solid black;
+            }
+
+        .content-right ul a:hover {
+            border: solid 1px #ff6a00;
+            color: #ff6a00;
+        }
+
+.clear {
+    clear: both;
+}
+
+.dinhdang {
+    width: 100%;
+    height: auto;
+    border-top: solid 1px #dbd5d5
+}
+
+.avt {
+    width: 10%;
+    float: left;
+    margin-top: 10px
+}
+
+    .avt img {
+        width: 40px;
+        height: 40px;
+    }
+
+.danhgia {
+    width: 90%;
+    float: left;
+    margin-top: 15px;
+    margin-left: -60px;
+    margin-bottom:15px;
+}
+
+.dmanh {
+    width: 100%;
+    margin: 10px;
+}
+
+    .dmanh img {
+        width: 50px;
+        height: 50px;
+        margin: 5px;
+    }
+
+.like {
+    width: 18px;
+    height: 13px;
+}
+
+.sao {
+    margin-top: -20px;
+}

@@ -9,7 +9,10 @@
 .content {
     display: grid;
     grid-template-columns: 20% 80%;
+<<<<<<< HEAD
     padding: 60px 0;
+=======
+>>>>>>> 0cbaa557bb3ec1166d868695bf817306e3fe8c88
 }
 
 .product_sidebar {
@@ -79,10 +82,17 @@
 
 .product_card img {
     width: 100%;
+<<<<<<< HEAD
 }
 
 .card_content {
     font-family: "K2D-Semibold";
+=======
+    height: 220px;
+}
+
+.card_content {
+>>>>>>> 0cbaa557bb3ec1166d868695bf817306e3fe8c88
     padding: 25px 0;
 }
 
@@ -122,6 +132,7 @@
 .btn_card:hover {
 
     background-color: #be7352;
+<<<<<<< HEAD
 }
 
 @media (max-width: 768px) {
@@ -159,4 +170,6 @@
         grid-template-columns: 1fr 1fr;
         gap: 20px;
     }
+=======
+>>>>>>> 0cbaa557bb3ec1166d868695bf817306e3fe8c88
 }
