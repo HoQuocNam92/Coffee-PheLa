@@ -324,72 +324,74 @@
     opacity: 0.9;
 }
 
-@media (max-width: 768px) {
-    .dashboard-wrapper {
-        flex-direction: column;
-    }
 
-    #sidebar {
-        position: static;
-        width: 100%;
-        height: auto;
-        padding-top: 0;
-        border-right: none;
-        border-bottom: 1px solid #dee2e6;
-        overflow-y: visible;
-    }
 
-    .sidebar-sticky {
-        padding-bottom: 0;
-    }
 
-    .nav-list {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
 
-    .nav-item {
-        margin: 5px;
-    }
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
 
-    .nav-link {
-        padding: 8px 12px;
-    }
+.popup-content {
+    background: #fff;
+    padding: 25px 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    width: 500px;
+}
 
-    .main-content {
-        margin-left: 0;
-        padding: 15px;
-    }
+.popup-content h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 22px;
+    color: #333;
+}
 
-    .dashboard-section {
-        padding: 15px;
-    }
+.popup-content label {
+    display: block;
+    margin-top: 12px;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
 
-    .overview-cards .card {
-        flex: 1 1 150px;
-        padding: 15px;
-    }
+.popup-content input {
+    width: 100%;
+    padding: 8px 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
 
-    .data-table th,
-    .data-table td {
-        padding: 8px;
-        font-size: 12px;
-    }
+.popup-buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
 
-    .action-button {
-        padding: 3px 6px;
-        margin-right: 2px;
-        font-size: 10px;
-    }
+.btn {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+}
 
-    .filter-controls {
-        flex-direction: column;
-        gap: 10px;
-    }
+.btn-primary {
+    background-color: #28a745;
+    color: #fff;
+}
 
-    .filter-controls input[type="text"],
-    .filter-controls select {
-        width: 100%;
-    }
+.btn-secondary {
+    background-color: #6c757d;
+    color: #fff;
 }
