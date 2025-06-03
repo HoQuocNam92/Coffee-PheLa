@@ -7,13 +7,15 @@
     <title>Menu Sản Phẩm</title>
     <link rel="stylesheet" href="fonts/themify-icons-font/themify-icons/themify-icons.css">
     <link rel="stylesheet" href="fontawesome/css/all.min.css">
+
+    <link rel="stylesheet" href="global-styles.css">
     <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="product.css">
+    <link rel="stylesheet" href="menu-styles.css">
 </head>
 
 <body>
-   
+
+
     <div class="header">
         <div class="container">
             <div class="navbar">
@@ -24,39 +26,34 @@
                 </div>
                 <ul class="menu">
                     <li class="menu-item">
-                        <a href="product.html" class="menu-link">SẢN PHẨM</a>
-                        <ul class="subnav subnavLong">
-                            <li class="special"><a href="ThemSanPham.html">THÊM SẢN PHẨM</a></li>
-                            <li><a href="ThemDanhMucSP.html">THÊM DANH MỤC </a></li>
-                        </ul>
+                        <a href="menu.html" class="menu-link">SẢN PHẨM</a>
+
                     </li>
-                    <li class="menu-item  ">
-                        <a href="" class="menu-link">CÂU CHUYỆN THƯƠNG MẠI</a>
+                    <li class="menu-item">
+                        <a href="about-phela.html" class="menu-link">CÂU CHUYỆN THƯƠNG HIỆU
+                        </a>
                         <ul class="subnav subnavLong">
-                            <li class="special"><a href="vephela.html">VỀ PHÊ LA</a></li>
-                            <li class="special"><a href="phongcach.html">PHONG CÁCH KHÁC BIỆT</a></li>
-                            <li><a href="tranchauolong.html">TRÂN CHÂU Ô LONG</a></li>
+                            <li class="special"><a href="about-phela.html">VỀ PHÊ LA</a></li>
+                            <li class="special"><a href="phogncach.html">PHONG CÁCH KHÁC BIỆT</a></li>
+                            <li><a href="oolong-pearl.html">TRÂN CHÂU Ô LONG</a></li>
                         </ul>
                     </li>
                     <li class="menu-item">
-                        <a href="blog.html" class="menu-link">TIN TỨC</a>
+                        <a href="tintuc.html" class="menu-link">TIN TỨC</a>
                         <ul class="subnav">
-                            <li class="special"><a href="vephela.html">ƯU ĐÃI</a></li>
-                            <li><a href="blog_event.html">SỰ KIỆN</a></li>
+                            <li><a href="blog-event.html">SỰ KIỆN</a></li>
 
                         </ul>
                     </li>
                     <li class="menu-item"><a href="address.html" class="menu-link">CỬA HÀNG</a></li>
                     <li class="menu-item">
-                        <a href="dieukhoan.html" class="menu-link">THÀNH VIÊN PHÊ LA</a>
-                        <ul class="subnav subnavLong">
-                            <li class="special"><a href="dieukhoan.html">ĐIỀU KHOẢN & ĐIỀU KIỆN</a></li>
-                            <li><a href="QLNhanVien.html">DANH SÁCH NHÂN VIÊN</a></li>
-                        </ul>
-                    </li>
-                    <li class="menu-item"><a href="lienhe.html" class="menu-link">LIÊN HỆ</a></li>
-                    <li class="menu-item"><a href="chuyen_dac_san.html" class="menu-link">CHUYÊN ĐẶC SẢN</a></li>
+                        <a href="dieuKhoan.html" class="menu-link">ĐIỀU KHOẢN & ĐIỀU KIỆN</a>
 
+                    </li>
+                    <li class="menu-item"><a href="chuyenDacSan.html" class="menu-link">CHUYÊN ĐẶC SẢN</a></li>
+                    <li class="menu-item"><a href="DangKy.html" class="menu-link">ĐĂNG KÝ</a></li>
+                    <li class="menu-item"><a href="cart.html" class="menu-link"><img src="images/cart.png" alt=""></a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -66,7 +63,8 @@
             <div class="content">
                 <div class="product_sidebar">
                     <div class="sidebar_search">
-                        <input type="text" id="sidebarSearchInput" placeholder="Tìm sản phẩm..." onkeyup="filterSidebarItems()" />
+                        <input type="text" id="sidebarSearchInput" placeholder="Tìm sản phẩm..."
+                            onkeyup="filterSidebarItems()" />
                     </div>
                     <ul class="sidebar_list">
                         <li class="sidebar_item">
@@ -113,7 +111,7 @@
                                         <p class="card_cost">
                                             <span class="original-price">79.000đ</span>
                                             <span class="sale-price">69.000đ</span>
-                                        </p>  
+                                        </p>
                                         <button class="btn_card">
                                             <a href="product_details.html">Mua ngay</a>
                                         </button>
@@ -756,22 +754,6 @@
                                 <img src="images/tamm.jpg" alt="">
                                 <div class="card_content">
                                     <a href="#" class="card_name">Tấm</a>
-                                    <div class="card_box">
-                                        <p class="card_cost">
-                                            <span class="original-price">79.000đ</span>
-                                            <span class="sale-price">69.000đ</span>
-                                        </p>
-                                        <button class="btn_card">
-                                            <a href="product_details.html">Mua ngay</a>
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="product_card">
-                                <img src="images/tamm.jpg" alt="">
-                                <div class="card_content">
-                                    <a href="#" class="card_name">Tấm</a>
                                     <a href="#" class="card_name">TRÀ VỎ CÀ PHÊ</a>
                                     <div class="card_box">
                                         <p class="card_cost">
@@ -862,7 +844,7 @@
                                 <div class="card_content">
                                     <a href="#" class="card_name">Tấm</a>
                                     <div class="card_box">
-                                       <p class="card_cost">
+                                        <p class="card_cost">
                                             <span class="original-price">79.000đ</span>
                                             <span class="sale-price">69.000đ</span>
                                         </p>
@@ -1295,7 +1277,7 @@
                                 <div class="card_content">
                                     <a href="#" class="card_name">Túi Tote Happy Chill Day - Đai Trơn</a>
                                     <div class="card_box">
-                                       <p class="card_cost">
+                                        <p class="card_cost">
                                             <span class="original-price">225.000đ</span>
                                             <span class="sale-price">148.000đ</span>
                                         </p>
@@ -1311,7 +1293,7 @@
                                 <div class="card_content">
                                     <a href="#" class="card_name">Túi Tote Happy Chill Day - Đai Khuông Nhạc</a>
                                     <div class="card_box">
-                                         <p class="card_cost">
+                                        <p class="card_cost">
                                             <span class="original-price">225.000đ</span>
                                             <span class="sale-price">148.000đ</span>
                                         </p>
@@ -1343,7 +1325,7 @@
                                 <div class="card_content">
                                     <a href="#" class="card_name">Cà Phê Phin Giấy - Phê Nguyên Bản</a>
                                     <div class="card_box">
-                                         <p class="card_cost">
+                                        <p class="card_cost">
                                             <span class="original-price">250.000đ</span>
                                             <span class="sale-price">197.000đ</span>
                                         </p>
@@ -1359,7 +1341,7 @@
                                 <div class="card_content">
                                     <a href="#" class="card_name">Cà Phê Phin Giấy - Phê Truffle</a>
                                     <div class="card_box">
-                                         <p class="card_cost">
+                                        <p class="card_cost">
                                             <span class="original-price">290.000đ</span>
                                             <span class="sale-price">266.000đ</span>
                                         </p>
@@ -1375,7 +1357,7 @@
                                 <div class="card_content">
                                     <a href="#" class="card_name">Hộp Quà Trà Sữa Tiện Lợi - Hộp 06 ly, 04 loại</a>
                                     <div class="card_box">
-                                         <p class="card_cost">
+                                        <p class="card_cost">
                                             <span class="original-price">194.000đ</span>
                                             <span class="sale-price">177.000đ</span>
                                         </p>
@@ -1392,7 +1374,7 @@
                                     <a href="#" class="card_name">Hộp Quà Đĩa Nhạc - Hộp 04 loại (03 Trà Hạt, 01 Cà Phê
                                         Phin)</a>
                                     <div class="card_box">
-                                         <p class="card_cost">
+                                        <p class="card_cost">
                                             <span class="original-price">1.050.000đ</span>
                                             <span class="sale-price">737.000đ</span>
                                         </p>
@@ -1409,7 +1391,7 @@
                                     <a href="#" class="card_name">Hộp Quà Phin Giấy - Hộp 02 loại Ô Long Sữa/ Ô Long
                                         Nhài</a>
                                     <div class="card_box">
-                                         <p class="card_cost">
+                                        <p class="card_cost">
                                             <span class="original-price">899.000đ</span>
                                             <span class="sale-price">599.000đ</span>
                                         </p>
@@ -1425,7 +1407,7 @@
                                 <div class="card_content">
                                     <a href="#" class="card_name">Phê Phin Truffle - Túi 200gr</a>
                                     <div class="card_box">
-                                         <p class="card_cost">
+                                        <p class="card_cost">
                                             <span class="original-price">225.000đ</span>
                                             <span class="sale-price">148.000đ</span>
                                         </p>
@@ -1441,7 +1423,7 @@
                                 <div class="card_content">
                                     <a href="#" class="card_name">Phê Phin Nguyên Bản - Túi 200gr</a>
                                     <div class="card_box">
-                                         <p class="card_cost">
+                                        <p class="card_cost">
                                             <span class="original-price">138.000đ</span>
                                             <span class="sale-price">108.000đ</span>
                                         </p>
@@ -1457,7 +1439,7 @@
                                 <div class="card_content">
                                     <a href="#" class="card_name">Phê Geisha - Túi 150gr</a>
                                     <div class="card_box">
-                                         <p class="card_cost">
+                                        <p class="card_cost">
                                             <span class="original-price">520.000đ</span>
                                             <span class="sale-price">418.000đ</span>
                                         </p>
@@ -1473,7 +1455,7 @@
                                 <div class="card_content">
                                     <a href="#" class="card_name">Phê Ethiopia - Túi 150gr</a>
                                     <div class="card_box">
-                                         <p class="card_cost">
+                                        <p class="card_cost">
                                             <span class="original-price">295.000đ</span>
                                             <span class="sale-price">246.000đ</span>
                                         </p>
@@ -1489,7 +1471,7 @@
                                 <div class="card_content">
                                     <a href="#" class="card_name">Phê Kenya - Túi 150gr</a>
                                     <div class="card_box">
-                                         <p class="card_cost">
+                                        <p class="card_cost">
                                             <span class="original-price">292.000đ</span>
                                             <span class="sale-price">270.000đ</span>
                                         </p>
@@ -1521,7 +1503,7 @@
                                 <div class="card_content">
                                     <a href="#" class="card_name">Ô Long Mùa Xuân Đặc Sản - Túi 150gr</a>
                                     <div class="card_box">
-                                         <p class="card_cost">
+                                        <p class="card_cost">
                                             <span class="original-price">452.000đ</span>
                                             <span class="sale-price">334.000đ</span>
                                         </p>
@@ -1537,7 +1519,7 @@
                                 <div class="card_content">
                                     <a href="#" class="card_name">TRÂN CHÂU GẠO RANG - HỘP 500GR</a>
                                     <div class="card_box">
-                                         <p class="card_cost">
+                                        <p class="card_cost">
                                             <span class="original-price">140.000đ</span>
                                             <span class="sale-price">108.000đ</span>
                                         </p>

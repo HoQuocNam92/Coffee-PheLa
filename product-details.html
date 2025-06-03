@@ -8,13 +8,13 @@
     <link rel="stylesheet" href="responsive.css">
     <link rel="stylesheet" href="fontawesome/css/all.min.css">
     <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="product_details-css.css">
+    <link rel="stylesheet" href="global-styles.css">
+    <link rel="stylesheet" href="product-details-styles.css">
     <title>Chi Tiết Sản Phẩm</title>
 </head>
 
 <body>
-   
+
     <div class="header">
         <div class="container">
             <div class="navbar">
@@ -25,39 +25,34 @@
                 </div>
                 <ul class="menu">
                     <li class="menu-item">
-                        <a href="product.html" class="menu-link">SẢN PHẨM</a>
-                        <ul class="subnav subnavLong">
-                            <li class="special"><a href="ThemSanPham.html">THÊM SẢN PHẨM</a></li>
-                            <li><a href="ThemDanhMucSP.html">THÊM DANH MỤC </a></li>
-                        </ul>
+                        <a href="menu.html" class="menu-link">SẢN PHẨM</a>
+
                     </li>
-                    <li class="menu-item  ">
-                        <a href="" class="menu-link">CÂU CHUYỆN THƯƠNG MẠI</a>
+                    <li class="menu-item">
+                        <a href="about-phela.html" class="menu-link">CÂU CHUYỆN THƯƠNG HIỆU
+                        </a>
                         <ul class="subnav subnavLong">
-                            <li class="special"><a href="vephela.html">VỀ PHÊ LA</a></li>
-                            <li class="special"><a href="phongcach.html">PHONG CÁCH KHÁC BIỆT</a></li>
-                            <li><a href="tranchauolong.html">TRÂN CHÂU Ô LONG</a></li>
+                            <li class="special"><a href="about-phela.html">VỀ PHÊ LA</a></li>
+                            <li class="special"><a href="phogncach.html">PHONG CÁCH KHÁC BIỆT</a></li>
+                            <li><a href="oolong-pearl.html">TRÂN CHÂU Ô LONG</a></li>
                         </ul>
                     </li>
                     <li class="menu-item">
-                        <a href="blog.html" class="menu-link">TIN TỨC</a>
+                        <a href="tintuc.html" class="menu-link">TIN TỨC</a>
                         <ul class="subnav">
-                            <li class="special"><a href="vephela.html">ƯU ĐÃI</a></li>
-                            <li><a href="blog_event.html">SỰ KIỆN</a></li>
+                            <li><a href="blog-event.html">SỰ KIỆN</a></li>
 
                         </ul>
                     </li>
                     <li class="menu-item"><a href="address.html" class="menu-link">CỬA HÀNG</a></li>
                     <li class="menu-item">
-                        <a href="dieukhoan.html" class="menu-link">THÀNH VIÊN PHÊ LA</a>
-                        <ul class="subnav subnavLong">
-                            <li class="special"><a href="dieukhoan.html">ĐIỀU KHOẢN & ĐIỀU KIỆN</a></li>
-                            <li><a href="QLNhanVien.html">DANH SÁCH NHÂN VIÊN</a></li>
-                        </ul>
-                    </li>
-                    <li class="menu-item"><a href="lienhe.html" class="menu-link">LIÊN HỆ</a></li>
-                    <li class="menu-item"><a href="chuyen_dac_san.html" class="menu-link">CHUYÊN ĐẶC SẢN</a></li>
+                        <a href="dieuKhoan.html" class="menu-link">ĐIỀU KHOẢN & ĐIỀU KIỆN</a>
 
+                    </li>
+                    <li class="menu-item"><a href="chuyenDacSan.html" class="menu-link">CHUYÊN ĐẶC SẢN</a></li>
+                    <li class="menu-item"><a href="DangKy.html" class="menu-link">ĐĂNG KÝ</a></li>
+                    <li class="menu-item"><a href="cart.html" class="menu-link"><img src="images/cart.png" alt=""></a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -82,14 +77,22 @@
             </div>
             <div class="product_detail_page">
 
-                <div class="product_details">                    
+                <div class="product_details">
                     <div class="product_img">
-                        <img id="mainProductImage" src="images/Matcha-Phan-Xi-Pang-da-xay-MOI-300x300.jpg" alt="Matcha Phan Xi Păng">
+                        <div class="main-image-container">
+                            <img id="mainProductImage" src="images/Matcha-Phan-Xi-Pang-da-xay-MOI-300x300.jpg"
+                                alt="Matcha Phan Xi Păng">
+                            <button class="gallery-nav prev-btn" data-action="prev">❮</button>
+                            <button class="gallery-nav next-btn" data-action="next">❯</button>
+                        </div>
                         <div class="thumbnail_gallery">
-                            <img src="images/Matcha-Phan-Xi-Pang-da-xay-MOI-300x300.jpg" onclick="changeImage(this)" alt="">
-                            <img src="images/Matcha-Phan-Xi-Pang-da-xay-MOI-300x300.jpg" onclick="changeImage(this)" alt="">
-                            <img src="images/Matcha-Phan-Xi-Pang-da-xay-MOI-300x300.jpg" onclick="changeImage(this)" alt="">
-                            <img src="images/Matcha-Phan-Xi-Pang-da-xay-MOI-300x300.jpg" onclick="changeImage(this)" alt="">
+                            <img src="images/Matcha-Phan-Xi-Pang-da-xay-MOI-300x300.jpg"
+                                data-image="images/Matcha-Phan-Xi-Pang-da-xay-MOI-300x300.jpg" alt="" class="active">
+                            <img src="images/tran-chau-nhai-phe-la-1280x1536.jpg"
+                                data-image="images/tran-chau-nhai-phe-la-1280x1536.jpg" alt="">
+                            <img src="images/O-Long-Sua-Phe-La-size-La.jpg"
+                                data-image="images/O-Long-Sua-Phe-La-size-La.jpg" alt="">
+                            <img src="images/Phong-Lan-size-La.jpg" data-image="images/Phong-Lan-size-La.jpg" alt="">
                         </div>
                     </div>
                     <div class="product_info">
@@ -98,6 +101,36 @@
                             <span class="original-price">74.000đ</span>
                             <span class="discount-price">64.000đ</span>
                         </p>
+                        <div class="size-selection">
+                            <h4 class="section-title">Size</h4>
+                            <div class="size-options">
+                                <label class="size-option">
+                                    <input type="radio" name="size" value="S" checked>
+                                    <span class="size-label">S</span>
+                                </label>
+                                <label class="size-option">
+                                    <input type="radio" name="size" value="M">
+                                    <span class="size-label">M</span>
+                                </label>
+                                <label class="size-option">
+                                    <input type="radio" name="size" value="L">
+                                    <span class="size-label">L</span>
+                                </label>
+                                <label class="size-option">
+                                    <input type="radio" name="size" value="XL">
+                                    <span class="size-label">XL</span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="quantity-selection">
+                            <h4 class="section-title">Số lượng</h4>
+                            <div class="quantity-input">
+                                <button class="quantity-btn" data-action="decrease">-</button>
+                                <input type="number" value="1" min="1" class="quantity-value">
+                                <button class="quantity-btn" data-action="increase">+</button>
+                            </div>
+                            <span class="available-stock">398957 sản phẩm có sẵn</span>
+                        </div>
                         <div class="extra-product-info">
                             <h4 class="section-title">📋 Thông tin chi tiết</h4>
                             <ul class="info-list">
@@ -110,23 +143,30 @@
 
                             <h4 class="section-title">🥪 Gợi ý dùng kèm</h4>
                             <p class="suggestion-text">
-                                Thức uống này sẽ hoàn hảo hơn khi thưởng thức cùng bánh flan caramel mềm mịn hoặc bánh matcha lava. Sự kết hợp ngọt dịu và béo nhẹ giúp tăng trải nghiệm vị giác một cách hài hòa.
+                                Thức uống này sẽ hoàn hảo hơn khi thưởng thức cùng bánh flan caramel mềm mịn hoặc bánh
+                                matcha lava. Sự kết hợp ngọt dịu và béo nhẹ giúp tăng trải nghiệm vị giác một cách hài
+                                hòa.
                             </p>
                         </div>
-                        <button class="btn_product_info"><a>Mua ngay</a></button>
+                        <button class="btn_product_info"><a>Thêm Vào Giỏ Hàng</a></button>
+                        <button class="btn_product_info buy-now"><a>Mua Ngay</a></button>
                     </div>
                 </div>
                 <div class="product_element">
                     <div class="element_list">
-                        <div class="profile_product">
-                            <a class="profile_name" href="#"><span>Chi tiết sản phẩm</span></a>
-                            <p class="profile_content">
-                                Lớp kem Ô Long Matcha kết hợp cùng cốt dừa đá xay mát lạnh, thưởng
-                                thức cùng Thạch Ô Long Matcha mềm mượt mang đến trải nghiệm thú vị.
-                            </p>
-                        </div>
-                        <div class="review_section">
-                            <h2>Đánh Giá Sản Phẩm</h2>                      
+                        <div class="product-details-bottom">
+
+                            <div class="profile_product">
+                                <a class="profile_name" href="#"><span>Chi tiết sản phẩm</span></a>
+                                <p class="profile_content">
+                                    Lớp kem Ô Long Matcha kết hợp cùng cốt dừa đá xay mát lạnh, thưởng
+                                    thức cùng Thạch Ô Long Matcha mềm mượt mang đến trải nghiệm thú vị.
+                                </p>
+                            </div>
+                            <div class="review_section">
+
+
+                            </div>
                             <div class="review_card">
                                 <div class="review_header">
                                     <strong class="review_user">lehoanghai0809</strong>
@@ -135,7 +175,9 @@
                                 </div>
                                 <div class="review_content">
                                     <p><b>Đúng với mô tả:</b> Đúng với mô tả</p>
-                                    <p><b>Chất lượng sản phẩm:</b> Nước ngon, là sự hòa quyện hài hòa giữa matcha thanh dịu với lớp kem béo bùi</p>
+                                    <p><b>Chất lượng sản phẩm:</b> Nước ngon, là sự hòa quyện hài hòa giữa matcha
+                                        thanh
+                                        dịu với lớp kem béo bùi</p>
                                     <p>Tiệm làm nước nhanh, không phải đợi lâu, sẽ quay lại với quán</p>
                                 </div>
                                 <div class="review_media">
@@ -183,10 +225,11 @@
 
             </div>
         </div>
-        
+
     </div>
     <iframe style="margin-top: 58px;" src="footer.html" width="100%" height="380px"></iframe>
 
+    <script src="product_detail.js"></script>
 </body>
 
 </html>

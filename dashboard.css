@@ -1,0 +1,395 @@
+.dashboard-wrapper {
+    margin-top: 80px;
+    /* Adjust based on header height */
+    display: flex;
+}
+
+.dashboard-container {
+    display: flex;
+    width: 100%;
+}
+
+#sidebar {
+    width: 250px;
+    /* Adjust sidebar width as needed */
+    min-width: 250px;
+    background-color: #f8f9fa;
+    /* Light background color */
+    padding-top: 20px;
+    border-right: 1px solid #dee2e6;
+    height: calc(100vh - 80px);
+    /* Full height minus header */
+    position: fixed;
+    top: 80px;
+    left: 0;
+    overflow-y: auto;
+    /* Enable scrolling if content overflows */
+}
+
+.sidebar-sticky {
+    padding-bottom: 20px;
+}
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-item {
+    margin-bottom: 5px;
+}
+
+.nav-link {
+    display: block;
+    padding: 10px 15px;
+    font-weight: 500;
+    color: #333;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.nav-link i {
+    margin-right: 10px;
+}
+
+.nav-link.active {
+    color: #f75f2d;
+    background-color: #e9ecef;
+}
+
+.nav-link:hover {
+    color: #e15940;
+    background-color: #e9ecef;
+}
+
+.main-content {
+    flex-grow: 1;
+    padding: 20px;
+    margin-left: 250px;
+
+}
+
+.dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.dashboard-header h1 {
+    font-size: 24px;
+    margin: 0;
+    color: #333;
+}
+
+.dashboard-section {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .05);
+    display: none;
+}
+
+.dashboard-section.active {
+    display: block;
+}
+
+.dashboard-section h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.add-new-button {
+    background-color: #28a745;
+    /* Green color */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.add-new-button:hover {
+    background-color: #218838;
+}
+
+.filter-controls {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.filter-controls input[type="text"],
+.filter-controls select {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.table-product-image {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding-top: 60px;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 500px;
+    border-radius: 8px;
+    position: relative;
+}
+
+.close-button {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    cursor: pointer;
+}
+
+.close-button:hover,
+.close-button:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-content h2 {
+    margin-top: 0;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group input[type="number"],
+.form-group input[type="email"],
+.form-group input[type="date"],
+.form-group input[type="file"],
+.form-group textarea,
+.form-group select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.modal-content button[type="submit"] {
+    background-color: #f75f2d;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.modal-content button[type="submit"]:hover {
+    background-color: #e15940;
+}
+
+.overview-cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.overview-cards .card {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    padding: 20px;
+    flex: 1 1 200px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.overview-cards .card-icon {
+    font-size: 36px;
+    color: #f75f2d;
+}
+
+.overview-cards .card-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.overview-cards .card-title {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.overview-cards .card-value {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.data-table th,
+.data-table td {
+    border: 1px solid #dee2e6;
+    padding: 12px;
+    text-align: left;
+}
+
+.data-table th {
+    background-color: #f8f9fa;
+    font-weight: bold;
+    color: #555;
+}
+
+.data-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.action-button {
+    padding: 5px 10px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.action-button.view {
+    background-color: #17a2b8;
+    color: white;
+}
+
+.action-button.edit {
+    background-color: #ffc107;
+    color: #212529;
+}
+
+.action-button.delete {
+    background-color: #dc3545;
+    color: white;
+}
+
+.action-button:hover {
+    opacity: 0.9;
+}
+
+@media (max-width: 768px) {
+    .dashboard-wrapper {
+        flex-direction: column;
+    }
+
+    #sidebar {
+        position: static;
+        width: 100%;
+        height: auto;
+        padding-top: 0;
+        border-right: none;
+        border-bottom: 1px solid #dee2e6;
+        overflow-y: visible;
+    }
+
+    .sidebar-sticky {
+        padding-bottom: 0;
+    }
+
+    .nav-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .nav-item {
+        margin: 5px;
+    }
+
+    .nav-link {
+        padding: 8px 12px;
+    }
+
+    .main-content {
+        margin-left: 0;
+        padding: 15px;
+    }
+
+    .dashboard-section {
+        padding: 15px;
+    }
+
+    .overview-cards .card {
+        flex: 1 1 150px;
+        padding: 15px;
+    }
+
+    .data-table th,
+    .data-table td {
+        padding: 8px;
+        font-size: 12px;
+    }
+
+    .action-button {
+        padding: 3px 6px;
+        margin-right: 2px;
+        font-size: 10px;
+    }
+
+    .filter-controls {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .filter-controls input[type="text"],
+    .filter-controls select {
+        width: 100%;
+    }
+}

@@ -43,6 +43,12 @@
      height: 40px;
  }
 
+ .header .navbar .logo a {
+     color: white;
+     font-size: 24px;
+     text-decoration: none;
+ }
+
  .header .navbar .menu {
      display: flex;
      list-style: none;
@@ -120,7 +126,9 @@
      display: block;
  }
 
-
+ .menu-item img {
+     width: 30px;
+ }
 
 
 
