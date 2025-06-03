@@ -1,6 +1,5 @@
 .dashboard-wrapper {
     margin-top: 80px;
-    /* Adjust based on header height */
     display: flex;
 }
 
@@ -11,19 +10,15 @@
 
 #sidebar {
     width: 250px;
-    /* Adjust sidebar width as needed */
     min-width: 250px;
     background-color: #f8f9fa;
-    /* Light background color */
     padding-top: 20px;
     border-right: 1px solid #dee2e6;
     height: calc(100vh - 80px);
-    /* Full height minus header */
     position: fixed;
     top: 80px;
     left: 0;
     overflow-y: auto;
-    /* Enable scrolling if content overflows */
 }
 
 .sidebar-sticky {
@@ -112,7 +107,6 @@
 
 .add-new-button {
     background-color: #28a745;
-    /* Green color */
     color: white;
     border: none;
     border-radius: 4px;

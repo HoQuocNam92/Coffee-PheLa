@@ -9,6 +9,7 @@
 
 .breadcrumb {
     margin: 24px 0;
+    display: inline-block;
 }
 
 .breadcrumb_item {
@@ -616,35 +617,4 @@
     color: #444;
     line-height: 1.6;
     padding-left: 12px;
-}
-
-
-@media (max-width: 768px) {
-    .product_details {
-        grid-template-columns: 1fr;
-    }
-
-    .product_img {
-        width: 80%;
-        margin-bottom: 30px;
-    }
-
-    .product_info {
-        padding: 0 15px;
-    }
-
-    .review-summary {
-        padding: 15px;
-    }
-
-    .review-filters {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .filter-btn,
-    .media-filter-btn {
-        width: 100%;
-        text-align: center;
-    }
 }

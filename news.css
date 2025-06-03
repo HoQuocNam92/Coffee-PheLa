@@ -78,18 +78,3 @@
 .read-more-btn:hover {
     background-color: #e15940;
 }
-
-@media (max-width: 768px) {
-    .news-container {
-        margin-top: 120px;
-        /* Adjust for smaller header */
-    }
-
-    .page-title h1 {
-        font-size: 24px;
-    }
-
-    .news-item {
-        margin-bottom: 20px;
-    }
-}
