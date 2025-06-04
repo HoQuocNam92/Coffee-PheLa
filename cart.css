@@ -137,15 +137,8 @@
     border: none;
     text-align: center;
     width: 30px;
-    -moz-appearance: textfield;
-    appearance: textfield;
 }
 
-.cart-item .quantity-input input[type="number"]::-webkit-outer-spin-button,
-.cart-item .quantity-input input[type="number"]::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
-}
 
 .cart-item .sold-out-stock {
     font-size: 12px;
