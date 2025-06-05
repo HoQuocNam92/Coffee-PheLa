@@ -21,6 +21,8 @@
 
 .breadcrumb_name {
     color: #be7352;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .breadcrumb_icon {
@@ -31,6 +33,9 @@
 
 .current_item--name {
     font-size: 14px;
+    text-decoration: none;
+    cursor: pointer;
+    color: #000;
 }
 
 .original-price {

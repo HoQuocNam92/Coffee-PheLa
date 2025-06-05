@@ -33,6 +33,8 @@
  .breadcrumb_name {
      font-size: 14px;
      color: #be7352;
+     text-decoration: none;
+     cursor: pointer;
  }
 
  .breadcrumb_icon {
@@ -45,6 +47,8 @@
      font-size: 14px;
      font-weight: 300;
      color: #333333;
+     cursor: pointer;
+     text-decoration: none;
  }
 
 
