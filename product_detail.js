@@ -1,44 +1,26 @@
-document.addEventListener('DOMContentLoaded', function() {
-    const mainImage = document.getElementById('mainProductImage');
-    const thumbnails = document.querySelectorAll('.thumbnail_gallery img');
-    const prevButton = document.querySelector('.gallery-nav[data-action="prev"]');
-    const nextButton = document.querySelector('.gallery-nav[data-action="next"]');
-    let currentImageIndex = 0;
+ const mainImage = document.querySelector('#mainProductImage');
 
-    function updateMainImage(imageSrc) {
-        mainImage.src = imageSrc;
+ const thumbnailImage = document.querySelectorAll('.thumbnails')
+
+ 
+function renderImage(src){
+    mainImage.src=src;
+}
+
+function updateThumbnailActive (index) {
+    document.querySelector('.thumbnails.active').classList.remove('active');
+    thumbnailImage[index].classList.add('active');
+
+}
+
+function updateImage (index) {
+    const Image = thumbnailImage[index].src;
+    renderImage(Image);
+    updateThumbnailActive(index);
+}
+ 
+ thumbnailImage.forEach((item,index)=>{
+    item.onclick = function() {
+        updateImage(index);
     }
-
-    function updateActiveThumbnail(index) {
-        thumbnails.forEach(thumb => thumb.classList.remove('active'));
-        thumbnails[index].classList.add('active');
-    }
-
-    function changeImage(index) {
-        currentImageIndex = index;
-        const imageSrc = thumbnails[index].getAttribute('data-image');
-        updateMainImage(imageSrc);
-        updateActiveThumbnail(index);
-    }
-
-    function nextImage() {
-        const nextIndex = (currentImageIndex + 1) % thumbnails.length;
-        changeImage(nextIndex);
-    }
-
-    function prevImage() {
-        const prevIndex = (currentImageIndex - 1 + thumbnails.length) % thumbnails.length;
-        changeImage(prevIndex);
-    }
-
-    thumbnails.forEach((thumbnail, index) => {
-        thumbnail.addEventListener('click', () => {
-            changeImage(index);
-        });
-    });
-
-    prevButton.addEventListener('click', prevImage);
-    nextButton.addEventListener('click', nextImage);
-
-    updateActiveThumbnail(0);
-}); 
+ })
